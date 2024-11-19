@@ -15,19 +15,22 @@ logger = logging.getLogger(__name__)
 
 class CoinbaseAPI:
     def __init__(self):
-        self.base_url = "https://api.coinbase.com/v2"  # Updated base URL for price data
+        self.price_url = "https://api.coinbase.com/v2"  # For fetching prices
+        self.pair_url = "https://api.exchange.coinbase.com"  # For fetching pairs
+
         self.api_key = os.getenv("COINBASE_API_KEY")
         self.api_secret = os.getenv("COINBASE_API_SECRET")
         self.api_passphrase = os.getenv("COINBASE_API_PASSPHRASE")
 
     def get_price(self, symbol, currency):
         """
-        Fetches the latest price for the chosen cryptocurrency pair from Coinbase.
+        Fetches the latest price for the chosen cryptocurrency pair from Coinbase's general API.
         Retries the request up to 3 times in case of temporary failures.
         """
         pair = f"{symbol}-{currency}"
-        endpoint = f"{self.base_url}/prices/{pair}/spot"
+        endpoint = f"{self.price_url}/prices/{pair}/spot"
         retries = 3
+
         for attempt in range(retries):
             try:
                 response = requests.get(endpoint)
@@ -44,11 +47,25 @@ class CoinbaseAPI:
                     logger.error(f"Failed to fetch price from Coinbase after {retries} attempts.")
                     return None
 
-
-
-    def place_order(self, side, price, size, product_id="DOGE-USD"):
+    def get_trading_pairs(self):
         """
-        Places a limit order on Coinbase Advanced Trade for DOGE/USD.
+        Fetches all trading pairs available on Coinbase Pro (via the pair API URL).
+        """
+        endpoint = f"{self.pair_url}/products"
+        try:
+            response = requests.get(endpoint)
+            response.raise_for_status()
+            data = response.json()
+            pairs = [product['id'] for product in data if product['status'] == 'online']
+            logger.info(f"Fetched {len(pairs)} trading pairs from Coinbase Pro.")
+            return pairs
+        except requests.exceptions.RequestException as e:
+            logger.error(f"Error fetching trading pairs from Coinbase Pro: {e}")
+            return []
+
+    def place_order(self, side, price, size, product_id="BTC-USD"):
+        """
+        Places a limit order on Coinbase Pro for the specified trading pair.
         """
         timestamp = str(int(time.time()))
         request_path = "/orders"
@@ -70,15 +87,15 @@ class CoinbaseAPI:
         }
 
         try:
-            response = requests.post(f"{self.base_url}/api/v3{request_path}", headers=headers, data=body_json)
+            response = requests.post(f"{self.pair_url}{request_path}", headers=headers, data=body_json)
             response.raise_for_status()
-            logger.info(f"Order placed on Coinbase Advanced Trade: {response.json()}")
+            logger.info(f"Order placed on Coinbase Pro: {response.json()}")
         except requests.exceptions.RequestException as e:
-            logger.error(f"Error placing order on Coinbase Advanced Trade: {e}")
+            logger.error(f"Error placing order on Coinbase Pro: {e}")
 
     def _generate_signature(self, timestamp, method, request_path, body):
         """
-        Generates the required HMAC SHA-256 signature for Coinbase Advanced Trade API.
+        Generates the required HMAC SHA-256 signature for Coinbase Pro API.
         """
         message = f"{timestamp}{method}{request_path}{body or ''}"
         signature = hmac.new(base64.b64decode(self.api_secret), message.encode(), hashlib.sha256).digest()

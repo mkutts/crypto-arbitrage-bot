@@ -7,15 +7,16 @@ from exchanges.binance import BinanceAPI
 
 # Configure logging
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.DEBUG,  # Change to DEBUG for detailed logs
     format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler("arbitrage_bot.log"),  # Save logs to a file
-        logging.StreamHandler()  # Print logs to console
+        logging.FileHandler("arbitrage_bot.log"),
+        logging.StreamHandler()
     ]
 )
 
 logger = logging.getLogger(__name__)  # Create a logger object
+
 
 class CryptoArbitrageBot:
     def __init__(self, exchanges, crypto_symbol, currency, mode, base_threshold=0.1):
@@ -145,7 +146,37 @@ class CryptoArbitrageBot:
             except Exception as e:
                 logger.error(f"Error in main bot loop: {e}")
 
-# Initialize APIs and prompt for cryptocurrency pair and mode
+
+def validate_pair(crypto_symbol, currency, exchanges):
+    """
+    Validates the trading pair across all exchanges, with detailed logging.
+    """
+    crypto_symbol = crypto_symbol.upper()
+    currency = currency.upper()
+    valid_pairs = {}
+
+    for exchange_name, api in exchanges.items():
+        try:
+            pairs = api.get_trading_pairs()
+            logger.info(f"Fetched {len(pairs)} pairs from {exchange_name}. Validating...")
+            for pair in pairs:
+                if crypto_symbol in pair and currency in pair:
+                    logger.info(f"Matched pair {pair} on {exchange_name}.")
+                    valid_pairs[exchange_name] = pair
+                    break
+            else:
+                logger.warning(f"No matching pair for {crypto_symbol}/{currency} on {exchange_name}.")
+        except Exception as e:
+            logger.error(f"Error validating pairs on {exchange_name}: {e}")
+
+    if valid_pairs:
+        logger.info(f"Valid pairs for {crypto_symbol}/{currency}: {valid_pairs}")
+    else:
+        logger.warning(f"Pair {crypto_symbol}/{currency} is not available on any exchange.")
+    return valid_pairs
+
+
+# Initialize APIs for exchanges
 kraken_api = KrakenAPI()
 coinbase_api = CoinbaseAPI()
 binance_api = BinanceAPI()
@@ -155,16 +186,24 @@ exchanges = {
     "Binance": binance_api
 }
 
+# Prompt user for cryptocurrency and currency input
 crypto_symbol = input("Enter the cryptocurrency symbol (e.g., BTC, DOGE): ").upper()
 currency = input("Enter the currency (e.g., USD): ").upper()
-mode = input("Enter mode (SIMULATION or LIVE): ").strip().upper()
 
+# Validate the user input trading pair
+valid_pairs = validate_pair(crypto_symbol, currency, exchanges)
+if not valid_pairs:
+    print(f"Error: {crypto_symbol}/{currency} is not supported on any exchange.")
+    exit()
+print(f"Valid trading pairs found: {valid_pairs}")
+
+# Prompt user for trading mode (SIMULATION or LIVE)
+mode = input("Enter mode (SIMULATION or LIVE): ").strip().upper()
 if mode not in {"SIMULATION", "LIVE"}:
     print("Invalid mode. Defaulting to SIMULATION.")
     mode = "SIMULATION"
 
-print(f"Running in {mode} mode.")
-
 # Start the bot
+print(f"Running in {mode} mode.")
 bot = CryptoArbitrageBot(exchanges, crypto_symbol, currency, mode)
 bot.run()

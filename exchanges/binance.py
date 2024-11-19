@@ -76,3 +76,18 @@ class BinanceAPI:
         except requests.exceptions.RequestException as e:
             logger.error(f"Error placing order on Binance: {e}")
             return None
+        
+    def get_trading_pairs(self):
+        """
+        Fetches all trading pairs available on Binance.
+        """
+        try:
+            response = requests.get(f"{self.base_url}/exchangeInfo")
+            response.raise_for_status()
+            data = response.json()
+            pairs = [symbol['symbol'] for symbol in data['symbols']]
+            return pairs
+        except requests.exceptions.RequestException as e:
+            logger.error(f"Error fetching trading pairs from Binance: {e}")
+            return []
+

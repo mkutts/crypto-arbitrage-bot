@@ -134,4 +134,33 @@ class KrakenAPI:
         except requests.exceptions.RequestException as e:
             logger.error(f"Error fetching minimum volume from Kraken: {e}")
             return None
+        
+    def get_trading_pairs(self):
+        """
+        Fetches and normalizes all trading pairs available on Kraken.
+        """
+        endpoint = "/0/public/AssetPairs"
+        try:
+            response = requests.get(f"{self.base_url}{endpoint}")
+            response.raise_for_status()
+            data = response.json()
 
+            pairs = []
+            logger.info("Fetching and normalizing Kraken trading pairs...")
+            for pair, details in data['result'].items():
+                base = details['base']
+                quote = details['quote']
+
+                # Adjust for Kraken's specific naming convention
+                base = base.replace("X", "").replace("Z", "").upper()
+                quote = quote.replace("X", "").replace("Z", "").upper()
+                normalized_pair = f"{base}/{quote}"
+
+                logger.debug(f"Original pair: {pair}, Normalized pair: {normalized_pair}")
+                pairs.append(normalized_pair)
+
+            logger.info(f"Total pairs fetched from Kraken: {len(pairs)}")
+            return pairs
+        except requests.exceptions.RequestException as e:
+            logger.error(f"Error fetching trading pairs from Kraken: {e}")
+            return []
