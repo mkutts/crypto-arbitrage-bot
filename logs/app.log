@@ -1,0 +1,98 @@
+2024-11-24 03:32:07,244 - INFO - Fetched price for BTC/USD from Kraken: 98381.0
+2024-11-24 03:32:07,246 - INFO - Kraken price for BTC/USD: 98381.0
+2024-11-24 03:32:07,355 - INFO - Fetched BTC/USD price from Coinbase: 98327.265
+2024-11-24 03:32:07,356 - INFO - Coinbase price for BTC/USD: 98327.265
+2024-11-24 03:32:07,655 - INFO - Fetched price for ETH/USD from Kraken: 3424.38
+2024-11-24 03:32:07,656 - INFO - Kraken price for ETH/USD: 3424.38
+2024-11-24 03:32:07,860 - INFO - Fetched ETH/USD price from Coinbase: 3424.8
+2024-11-24 03:32:07,861 - INFO - Coinbase price for ETH/USD: 3424.8
+2024-11-24 03:50:11,885 - INFO - Fetched price for BTC/USD from Kraken: 98321.8
+2024-11-24 03:50:11,888 - INFO - Kraken price for BTC/USD: 98321.8
+2024-11-24 03:50:12,086 - INFO - Fetched BTC/USD price from Coinbase: 98329.365
+2024-11-24 03:50:12,088 - INFO - Coinbase price for BTC/USD: 98329.365
+2024-11-24 03:50:12,292 - INFO - Fetched price for ETH/USD from Kraken: 3429.54
+2024-11-24 03:50:12,293 - INFO - Kraken price for ETH/USD: 3429.54
+2024-11-24 03:50:12,495 - INFO - Fetched ETH/USD price from Coinbase: 3429.555
+2024-11-24 03:50:12,497 - INFO - Coinbase price for ETH/USD: 3429.555
+2024-11-24 03:53:29,978 - INFO - Starting Arbitrage Detection
+2024-11-24 03:53:30,016 - INFO - Fetching prices for BTC/USD...
+2024-11-24 03:53:30,644 - INFO - Fetched price for BTC/USD from Kraken: 98229.9
+2024-11-24 03:53:30,646 - INFO - Kraken price for BTC/USD: 98229.9
+2024-11-24 03:53:30,953 - INFO - Fetched BTC/USD price from Coinbase: 98250.575
+2024-11-24 03:53:30,955 - INFO - Coinbase price for BTC/USD: 98250.575
+2024-11-24 03:53:30,956 - INFO - Comparison for BTC/USD: Kraken: 98229.9, Coinbase: 98250.575, Difference: 0.02%
+2024-11-24 03:53:30,956 - INFO - Fetching prices for ETH/USD...
+2024-11-24 03:53:31,259 - INFO - Fetched price for ETH/USD from Kraken: 3429.46
+2024-11-24 03:53:31,260 - INFO - Kraken price for ETH/USD: 3429.46
+2024-11-24 03:53:31,567 - INFO - Fetched ETH/USD price from Coinbase: 3429.52
+2024-11-24 03:53:31,569 - INFO - Coinbase price for ETH/USD: 3429.52
+2024-11-24 03:53:31,569 - INFO - Comparison for ETH/USD: Kraken: 3429.46, Coinbase: 3429.52, Difference: 0.00%
+2024-11-24 03:53:31,570 - INFO - No Arbitrage Opportunities Detected.
+2024-11-23 22:58:29,511 - INFO - Starting Arbitrage Detection
+2024-11-23 22:58:29,513 - INFO - Fetching prices for BTC/USD...
+2024-11-23 22:58:29,752 - INFO - Fetched price for BTC/USD from Kraken: 98209.3
+2024-11-23 22:58:29,753 - INFO - Kraken price for BTC/USD: 98209.3
+2024-11-23 22:58:29,852 - INFO - Fetched BTC/USD price from Coinbase: 98269.975
+2024-11-23 22:58:29,852 - INFO - Coinbase price for BTC/USD: 98269.975
+2024-11-23 22:58:29,852 - INFO - Comparison for BTC/USD: Kraken: 98209.3, Coinbase: 98269.975, Difference: 0.06%
+2024-11-23 22:58:29,852 - INFO - Fetching prices for ETH/USD...
+2024-11-23 22:58:29,960 - INFO - Fetched price for ETH/USD from Kraken: 3429.9
+2024-11-23 22:58:29,961 - INFO - Kraken price for ETH/USD: 3429.9
+2024-11-23 22:58:30,033 - INFO - Fetched ETH/USD price from Coinbase: 3431.555
+2024-11-23 22:58:30,034 - INFO - Coinbase price for ETH/USD: 3431.555
+2024-11-23 22:58:30,034 - INFO - Comparison for ETH/USD: Kraken: 3429.9, Coinbase: 3431.555, Difference: 0.05%
+2024-11-23 22:58:30,034 - INFO - No Arbitrage Opportunities Detected.
+2024-11-24 03:59:30,036 - INFO - Starting Arbitrage Detection
+2024-11-24 03:59:30,037 - INFO - Fetching prices for BTC/USD...
+2024-11-24 03:59:30,488 - INFO - Fetched price for BTC/USD from Kraken: 98210.0
+2024-11-24 03:59:30,489 - INFO - Kraken price for BTC/USD: 98210.0
+2024-11-24 03:59:30,624 - INFO - Fetched BTC/USD price from Coinbase: 98291.905
+2024-11-24 03:59:30,625 - INFO - Coinbase price for BTC/USD: 98291.905
+2024-11-24 03:59:30,626 - INFO - Comparison for BTC/USD: Kraken: 98210.0, Coinbase: 98291.905, Difference: 0.08%
+2024-11-24 03:59:30,627 - INFO - Fetching prices for ETH/USD...
+2024-11-24 03:59:30,794 - INFO - Fetched price for ETH/USD from Kraken: 3429.9
+2024-11-24 03:59:30,795 - INFO - Kraken price for ETH/USD: 3429.9
+2024-11-24 03:59:30,937 - INFO - Fetched ETH/USD price from Coinbase: 3429.695
+2024-11-24 03:59:30,938 - INFO - Coinbase price for ETH/USD: 3429.695
+2024-11-24 03:59:30,939 - INFO - Comparison for ETH/USD: Kraken: 3429.9, Coinbase: 3429.695, Difference: 0.01%
+2024-11-24 03:59:30,939 - INFO - No Arbitrage Opportunities Detected.
+2024-11-24 04:07:12,029 - INFO - Starting Arbitrage Detection
+2024-11-24 04:07:12,030 - INFO - Fetching prices for BTC/USD...
+2024-11-24 04:07:12,323 - INFO - Fetched price for BTC/USD from Kraken: 98278.4
+2024-11-24 04:07:12,324 - INFO - Kraken price for BTC/USD: 98278.4
+2024-11-24 04:07:12,426 - INFO - Fetched BTC/USD price from Coinbase: 98361.035
+2024-11-24 04:07:12,427 - INFO - Coinbase price for BTC/USD: 98361.035
+2024-11-24 04:07:12,428 - INFO - Comparison for BTC/USD: Kraken: 98278.4, Coinbase: 98361.035, Difference: 0.08%
+2024-11-24 04:07:12,428 - INFO - Fetching prices for ETH/USD...
+2024-11-24 04:07:12,661 - INFO - Fetched price for ETH/USD from Kraken: 3435.36
+2024-11-24 04:07:12,662 - INFO - Kraken price for ETH/USD: 3435.36
+2024-11-24 04:07:12,836 - INFO - Fetched ETH/USD price from Coinbase: 3434.68
+2024-11-24 04:07:12,837 - INFO - Coinbase price for ETH/USD: 3434.68
+2024-11-24 04:07:12,838 - INFO - Comparison for ETH/USD: Kraken: 3435.36, Coinbase: 3434.68, Difference: 0.02%
+2024-11-24 04:07:12,839 - INFO - No Arbitrage Opportunities Detected.
+2024-11-24 04:11:55,685 - INFO - Starting Arbitrage Detection
+2024-11-24 04:11:55,686 - INFO - Fetching prices for BTC/USD...
+2024-11-24 04:11:56,080 - INFO - Fetched price for BTC/USD from Kraken: 98311.0
+2024-11-24 04:11:56,081 - INFO - Kraken price for BTC/USD: 98311.0
+2024-11-24 04:11:56,285 - INFO - Fetched BTC/USD price from Coinbase: 98323.64
+2024-11-24 04:11:56,286 - INFO - Coinbase price for BTC/USD: 98323.64
+2024-11-24 04:11:56,287 - INFO - Comparison for BTC/USD: Kraken: 98311.0, Coinbase: 98323.64, Difference: 0.01%
+2024-11-24 04:11:56,288 - INFO - Fetching prices for ETH/USD...
+2024-11-24 04:11:56,489 - INFO - Fetched price for ETH/USD from Kraken: 3430.72
+2024-11-24 04:11:56,490 - INFO - Kraken price for ETH/USD: 3430.72
+2024-11-24 04:11:56,635 - INFO - Fetched ETH/USD price from Coinbase: 3431.015
+2024-11-24 04:11:56,636 - INFO - Coinbase price for ETH/USD: 3431.015
+2024-11-24 04:11:56,637 - INFO - Comparison for ETH/USD: Kraken: 3430.72, Coinbase: 3431.015, Difference: 0.01%
+2024-11-24 04:11:56,637 - INFO - No Arbitrage Opportunities Detected.
+2024-11-24 04:18:36,445 - INFO - Starting Arbitrage Detection
+2024-11-24 04:18:36,446 - INFO - Fetching prices for BTC/USD...
+2024-11-24 04:18:36,663 - INFO - Fetched price for BTC/USD from Kraken: 98200.0
+2024-11-24 04:18:36,761 - INFO - Fetched BTC/USD price from Coinbase: 98142.105
+2024-11-24 04:18:36,762 - INFO - Comparison for BTC/USD: Kraken: 98200.0, Coinbase: 98142.105, Raw Difference: 57.895000000004075, Percentage Difference: 0.06%, Threshold: 0.56%
+2024-11-24 04:18:36,762 - INFO - No Arbitrage for BTC/USD: Difference 0.06% is below Threshold 0.56%
+2024-11-24 04:18:36,763 - INFO - Fetching prices for ETH/USD...
+2024-11-24 04:18:36,975 - INFO - Fetched price for ETH/USD from Kraken: 3423.47
+2024-11-24 04:18:37,067 - INFO - Fetched ETH/USD price from Coinbase: 3421.405
+2024-11-24 04:18:37,068 - INFO - Comparison for ETH/USD: Kraken: 3423.47, Coinbase: 3421.405, Raw Difference: 2.0649999999996, Percentage Difference: 0.06%, Threshold: 0.56%
+2024-11-24 04:18:37,107 - INFO - No Arbitrage for ETH/USD: Difference 0.06% is below Threshold 0.56%
+2024-11-24 04:18:37,107 - INFO - No Arbitrage Opportunities Detected.

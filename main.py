@@ -1,121 +1,121 @@
-# main.py
-
 import logging
 from exchanges.kraken import KrakenAPI
 from exchanges.coinbase import CoinbaseAPI
+import yaml
+import os
 
-logging.basicConfig(level=logging.INFO)
+# Load configuration
+with open("config.yaml", "r") as file:
+    config = yaml.safe_load(file)
+
+# Configure logging
+logging.basicConfig(
+    level=getattr(logging, config["logging"]["level"].upper()),
+    filename=config["logging"]["filename"] if config["logging"]["output"] == "file" else None,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+)
 logger = logging.getLogger(__name__)
 
-# Define trading pairs to compare
-TRADING_PAIRS = [("BTC", "USD"), ("ETH", "USD")]
+def fetch_prices(kraken, coinbase, pair):
+    """
+    Fetch prices for a trading pair from Kraken and Coinbase.
+    """
+    symbol, currency = pair.split("/")
+    kraken_price = kraken.get_price(symbol, currency)
+    logger.info(f"Kraken price for {pair}: {kraken_price}")
 
-# Define arbitrage threshold percentage
-ARBITRAGE_THRESHOLD = 0.005  # Example: 0.5% difference
+    coinbase_price = coinbase.get_price(symbol, currency)
+    logger.info(f"Coinbase price for {pair}: {coinbase_price}")
 
-class ArbitrageBot:
-    def __init__(self, mode="SIMULATION"):
-        self.mode = mode
-        self.exchanges = {
-            "Kraken": KrakenAPI(),
-            "Coinbase": CoinbaseAPI()
-        }
+    return kraken_price, coinbase_price
 
-    def execute_trade(self, opportunity):
-        """
-        Executes a trade in the chosen mode.
-        """
-        buy_exchange = opportunity['buy_exchange']
-        sell_exchange = opportunity['sell_exchange']
-        buy_price = opportunity['min_price']
-        sell_price = opportunity['max_price']
-        trade_amount = 0.001  # Example trade amount
+def calculate_threshold(buy_exchange, sell_exchange, profit_margin=0.1, order_type="limit"):
+    """
+    Calculate the dynamic threshold for arbitrage detection based on maker/taker fees.
+    :param buy_exchange: Name of the exchange to buy from.
+    :param sell_exchange: Name of the exchange to sell on.
+    :param profit_margin: Desired profit margin in percentage.
+    :param order_type: 'limit' (maker) or 'market' (taker).
+    :return: Minimum percentage difference for a profitable trade.
+    """
+    # Fetch fee structure from config
+    exchange_fees = {exchange["name"]: exchange for exchange in config["exchanges"]}
 
-        logger.info(f"Executing trade: Buy on {buy_exchange} at {buy_price}, Sell on {sell_exchange} at {sell_price}")
+    buy_fees = exchange_fees.get(buy_exchange, {})
+    sell_fees = exchange_fees.get(sell_exchange, {})
 
-        if self.mode == "SIMULATION":
-            # Simulate the trade
-            profit = (sell_price - buy_price) * trade_amount
-            logger.info(f"SIMULATION MODE: Hypothetical trade amount = {trade_amount} BTC/ETH, Profit = ${profit:.2f}")
-            self.log_trade(opportunity, profit, "SIMULATION")
-        elif self.mode == "LIVE":
-            try:
-                # Execute buy order
-                if buy_exchange in self.exchanges:
-                    self.exchanges[buy_exchange].place_order("buy", buy_price, trade_amount)
-                else:
-                    logger.error(f"Buy exchange {buy_exchange} not supported.")
+    # Use maker or taker fees based on order type
+    buy_fee = buy_fees.get("maker_fee" if order_type == "limit" else "taker_fee", 0)
+    sell_fee = sell_fees.get("taker_fee", 0)  # Selling is usually a taker action
 
-                # Execute sell order
-                if sell_exchange in self.exchanges:
-                    self.exchanges[sell_exchange].place_order("sell", sell_price, trade_amount)
-                else:
-                    logger.error(f"Sell exchange {sell_exchange} not supported.")
+    # Total threshold = buy fee + sell fee + desired profit margin
+    return buy_fee + sell_fee + profit_margin
 
-                logger.info("LIVE TRADE EXECUTED.")
-                self.log_trade(opportunity, None, "LIVE")
-            except Exception as e:
-                logger.error(f"Error executing live trade: {e}")
-        else:
-            logger.error(f"Invalid mode: {self.mode}")
+def compare_prices(kraken_price, coinbase_price, pair, threshold):
+    """
+    Compare prices between Kraken and Coinbase to identify arbitrage opportunities.
+    Includes a dynamic threshold for detection.
+    """
+    if kraken_price and coinbase_price:
+        diff = abs(kraken_price - coinbase_price)
+        diff_percent = (diff / ((kraken_price + coinbase_price) / 2)) * 100
 
-    def log_trade(self, opportunity, profit, mode):
-        """
-        Logs executed trades or simulated trades.
-        """
-        trade_log = {
-            "mode": mode,
-            "buy_exchange": opportunity['buy_exchange'],
-            "sell_exchange": opportunity['sell_exchange'],
-            "buy_price": opportunity['min_price'],
-            "sell_price": opportunity['max_price'],
-            "profit": profit,
-        }
-        logger.info(f"Trade Log: {trade_log}")
-
-    def calculate_arbitrage(self, pair, price_kraken, price_coinbase):
-        """
-        Calculate arbitrage percentage and execute trades if opportunity is detected.
-        """
-        diff_percentage = abs(price_kraken - price_coinbase) / min(price_kraken, price_coinbase) * 100
+        # Log raw difference, percentage difference, and threshold
         logger.info(
-            f"Comparison for {pair}: Kraken: {price_kraken}, Coinbase: {price_coinbase}, "
-            f"Difference: {diff_percentage:.2f}%"
+            f"Comparison for {pair}: Kraken: {kraken_price}, Coinbase: {coinbase_price}, "
+            f"Raw Difference: {diff}, Percentage Difference: {diff_percent:.2f}%, "
+            f"Threshold: {threshold:.2f}%"
         )
 
-        if diff_percentage >= ARBITRAGE_THRESHOLD:
-            logger.info(
-                f"Arbitrage Opportunity Detected for {pair}!"
-                f" Kraken: {price_kraken}, Coinbase: {price_coinbase}, "
-                f"Difference: {diff_percentage:.2f}%"
-            )
-
-            opportunity = {
-                "buy_exchange": "Kraken" if price_kraken < price_coinbase else "Coinbase",
-                "sell_exchange": "Coinbase" if price_kraken < price_coinbase else "Kraken",
-                "min_price": min(price_kraken, price_coinbase),
-                "max_price": max(price_kraken, price_coinbase),
+        if diff_percent >= threshold:
+            logger.info(f"Arbitrage opportunity detected for {pair}: Kraken: {kraken_price}, Coinbase: {coinbase_price}")
+            return {
+                "pair": pair,
+                "kraken_price": kraken_price,
+                "coinbase_price": coinbase_price,
+                "difference": diff_percent,
             }
-            self.execute_trade(opportunity)
+        else:
+            logger.info(f"No Arbitrage for {pair}: Difference {diff_percent:.2f}% is below Threshold {threshold:.2f}%")
+    return None
 
-    def run(self):
-        logger.info("Starting Arbitrage Detection")
+def find_arbitrage_opportunities(pairs, kraken, coinbase):
+    """
+    Find arbitrage opportunities between Kraken and Coinbase.
+    """
+    opportunities = []
+    for pair_config in pairs:
+        pair = pair_config["symbol"]
+        logger.info(f"Fetching prices for {pair}...")
+        symbol, currency = pair.split("/")
+        kraken_price = kraken.get_price(symbol, currency)
+        coinbase_price = coinbase.get_price(symbol, currency)
 
-        for symbol, currency in TRADING_PAIRS:
-            logger.info(f"Fetching prices for {symbol}/{currency}...")
+        # Calculate dynamic threshold for the pair
+        threshold = calculate_threshold("kraken", "coinbase")
 
-            # Fetch prices
-            price_kraken = self.exchanges["Kraken"].get_price(symbol, currency)
-            price_coinbase = self.exchanges["Coinbase"].get_price(symbol, currency)
+        opportunity = compare_prices(kraken_price, coinbase_price, pair, threshold)
+        if opportunity:
+            opportunities.append(opportunity)
 
-            if price_kraken is None or price_coinbase is None:
-                logger.warning(f"Failed to fetch prices for {symbol}/{currency}")
-                continue
+    return opportunities
 
-            # Calculate arbitrage and execute trades if applicable
-            self.calculate_arbitrage(f"{symbol}/{currency}", price_kraken, price_coinbase)
+def main():
+    logger.info("Starting Arbitrage Detection")
 
+    # Initialize API clients
+    kraken = KrakenAPI()
+    coinbase = CoinbaseAPI()
+
+    # Find arbitrage opportunities
+    opportunities = find_arbitrage_opportunities(config["pairs"], kraken, coinbase)
+
+    if opportunities:
+        logger.info("Arbitrage Opportunities Detected:")
+        for opp in opportunities:
+            logger.info(f"Pair: {opp['pair']}, Kraken: {opp['kraken_price']}, Coinbase: {opp['coinbase_price']}, Difference: {opp['difference']:.2f}%")
+    else:
+        logger.info("No Arbitrage Opportunities Detected.")
 
 if __name__ == "__main__":
-    bot = ArbitrageBot(mode="SIMULATION")  # Change to "LIVE" for live trading
-    bot.run()
+    main()
