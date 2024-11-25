@@ -1,602 +1,602 @@
 [
     {
-        "timestamp": "2024-11-25 14:50:01",
+        "timestamp": "2024-11-25 15:23:24",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4042513,
-        "coinbase_price": 0.404345
+        "kraken_price": 0.4046228,
+        "coinbase_price": 0.40488
     },
     {
-        "timestamp": "2024-11-25 14:50:02",
+        "timestamp": "2024-11-25 15:23:25",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4042513,
-        "coinbase_price": 0.404345
+        "kraken_price": 0.4048152,
+        "coinbase_price": 0.404765
     },
     {
-        "timestamp": "2024-11-25 14:50:04",
+        "timestamp": "2024-11-25 15:23:27",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4042513,
-        "coinbase_price": 0.40444
+        "kraken_price": 0.4048152,
+        "coinbase_price": 0.40464
     },
     {
-        "timestamp": "2024-11-25 14:50:05",
+        "timestamp": "2024-11-25 15:23:28",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4042513,
-        "coinbase_price": 0.40444
+        "kraken_price": 0.4048152,
+        "coinbase_price": 0.40464
     },
     {
-        "timestamp": "2024-11-25 14:50:07",
+        "timestamp": "2024-11-25 15:23:29",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4042513,
-        "coinbase_price": 0.404465
+        "kraken_price": 0.4048152,
+        "coinbase_price": 0.404975
     },
     {
-        "timestamp": "2024-11-25 14:50:08",
+        "timestamp": "2024-11-25 15:23:30",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4042516,
-        "coinbase_price": 0.404465
+        "kraken_price": 0.4051843,
+        "coinbase_price": 0.404975
     },
     {
-        "timestamp": "2024-11-25 14:50:10",
+        "timestamp": "2024-11-25 15:23:32",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4042516,
-        "coinbase_price": 0.40444
+        "kraken_price": 0.4051843,
+        "coinbase_price": 0.404975
     },
     {
-        "timestamp": "2024-11-25 14:50:11",
+        "timestamp": "2024-11-25 15:23:33",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4042516,
-        "coinbase_price": 0.404475
+        "kraken_price": 0.4051843,
+        "coinbase_price": 0.405275
     },
     {
-        "timestamp": "2024-11-25 14:50:13",
+        "timestamp": "2024-11-25 15:23:34",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4042415,
-        "coinbase_price": 0.404475
+        "kraken_price": 0.4051843,
+        "coinbase_price": 0.40488
     },
     {
-        "timestamp": "2024-11-25 14:50:14",
+        "timestamp": "2024-11-25 15:23:36",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4042415,
-        "coinbase_price": 0.404475
+        "kraken_price": 0.4051843,
+        "coinbase_price": 0.40488
     },
     {
-        "timestamp": "2024-11-25 14:50:15",
+        "timestamp": "2024-11-25 15:23:37",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4042415,
-        "coinbase_price": 0.404285
+        "kraken_price": 0.4051843,
+        "coinbase_price": 0.404975
     },
     {
-        "timestamp": "2024-11-25 14:50:17",
+        "timestamp": "2024-11-25 15:23:38",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4042415,
-        "coinbase_price": 0.404285
+        "kraken_price": 0.4051843,
+        "coinbase_price": 0.405275
     },
     {
-        "timestamp": "2024-11-25 14:50:18",
+        "timestamp": "2024-11-25 15:23:40",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4042415,
-        "coinbase_price": 0.404285
+        "kraken_price": 0.4051843,
+        "coinbase_price": 0.405275
     },
     {
-        "timestamp": "2024-11-25 14:50:19",
+        "timestamp": "2024-11-25 15:23:41",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4042415,
-        "coinbase_price": 0.40444
+        "kraken_price": 0.4051843,
+        "coinbase_price": 0.404975
     },
     {
-        "timestamp": "2024-11-25 14:50:21",
+        "timestamp": "2024-11-25 15:23:42",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4042415,
-        "coinbase_price": 0.404285
+        "kraken_price": 0.4047879,
+        "coinbase_price": 0.405275
     },
     {
-        "timestamp": "2024-11-25 14:50:22",
+        "timestamp": "2024-11-25 15:23:44",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4041941,
-        "coinbase_price": 0.404285
+        "kraken_price": 0.4047879,
+        "coinbase_price": 0.405455
     },
     {
-        "timestamp": "2024-11-25 14:50:23",
+        "timestamp": "2024-11-25 15:23:45",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4041941,
-        "coinbase_price": 0.403975
+        "kraken_price": 0.4047879,
+        "coinbase_price": 0.404975
     },
     {
-        "timestamp": "2024-11-25 14:50:25",
+        "timestamp": "2024-11-25 15:23:46",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4042625,
-        "coinbase_price": 0.404285
+        "kraken_price": 0.4047879,
+        "coinbase_price": 0.404975
     },
     {
-        "timestamp": "2024-11-25 14:50:26",
+        "timestamp": "2024-11-25 15:23:48",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4042625,
-        "coinbase_price": 0.404285
+        "kraken_price": 0.4047879,
+        "coinbase_price": 0.404975
     },
     {
-        "timestamp": "2024-11-25 14:50:27",
+        "timestamp": "2024-11-25 15:23:49",
         "pair": "DOGE/USD",
-        "kraken_price": 0.404328,
-        "coinbase_price": 0.403975
+        "kraken_price": 0.4047879,
+        "coinbase_price": 0.405445
     },
     {
-        "timestamp": "2024-11-25 14:50:29",
+        "timestamp": "2024-11-25 15:23:50",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.40406
+        "kraken_price": 0.4047879,
+        "coinbase_price": 0.405445
     },
     {
-        "timestamp": "2024-11-25 14:50:30",
+        "timestamp": "2024-11-25 15:23:52",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404315
+        "kraken_price": 0.4047879,
+        "coinbase_price": 0.4053
     },
     {
-        "timestamp": "2024-11-25 14:50:32",
+        "timestamp": "2024-11-25 15:23:53",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404315
+        "kraken_price": 0.4047879,
+        "coinbase_price": 0.405355
     },
     {
-        "timestamp": "2024-11-25 14:50:33",
+        "timestamp": "2024-11-25 15:23:54",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.403975
+        "kraken_price": 0.4048547,
+        "coinbase_price": 0.405355
     },
     {
-        "timestamp": "2024-11-25 14:50:35",
+        "timestamp": "2024-11-25 15:23:55",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404555
+        "kraken_price": 0.4048547,
+        "coinbase_price": 0.405445
     },
     {
-        "timestamp": "2024-11-25 14:50:37",
+        "timestamp": "2024-11-25 15:23:57",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.40406
+        "kraken_price": 0.4051642,
+        "coinbase_price": 0.405355
     },
     {
-        "timestamp": "2024-11-25 14:50:38",
+        "timestamp": "2024-11-25 15:23:58",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.40406
+        "kraken_price": 0.4051642,
+        "coinbase_price": 0.405355
     },
     {
-        "timestamp": "2024-11-25 14:50:39",
+        "timestamp": "2024-11-25 15:23:59",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404715
+        "kraken_price": 0.4051642,
+        "coinbase_price": 0.405445
     },
     {
-        "timestamp": "2024-11-25 14:50:41",
+        "timestamp": "2024-11-25 15:24:01",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404715
+        "kraken_price": 0.4051642,
+        "coinbase_price": 0.4053
     },
     {
-        "timestamp": "2024-11-25 14:50:42",
+        "timestamp": "2024-11-25 15:24:02",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404715
+        "kraken_price": 0.4051642,
+        "coinbase_price": 0.4053
     },
     {
-        "timestamp": "2024-11-25 14:50:43",
+        "timestamp": "2024-11-25 15:24:03",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404715
+        "kraken_price": 0.4049158,
+        "coinbase_price": 0.405485
     },
     {
-        "timestamp": "2024-11-25 14:50:45",
+        "timestamp": "2024-11-25 15:24:04",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404555
+        "kraken_price": 0.4049158,
+        "coinbase_price": 0.405485
     },
     {
-        "timestamp": "2024-11-25 14:50:46",
+        "timestamp": "2024-11-25 15:24:05",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404555
+        "kraken_price": 0.4049158,
+        "coinbase_price": 0.405445
     },
     {
-        "timestamp": "2024-11-25 14:50:48",
+        "timestamp": "2024-11-25 15:24:07",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404615
+        "kraken_price": 0.4049158,
+        "coinbase_price": 0.405355
     },
     {
-        "timestamp": "2024-11-25 14:50:49",
+        "timestamp": "2024-11-25 15:24:08",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.40472
+        "kraken_price": 0.4051643,
+        "coinbase_price": 0.405355
     },
     {
-        "timestamp": "2024-11-25 14:50:50",
+        "timestamp": "2024-11-25 15:24:09",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404615
+        "kraken_price": 0.4051643,
+        "coinbase_price": 0.405485
     },
     {
-        "timestamp": "2024-11-25 14:50:52",
+        "timestamp": "2024-11-25 15:24:11",
         "pair": "DOGE/USD",
-        "kraken_price": 0.404557,
-        "coinbase_price": 0.404615
+        "kraken_price": 0.4048452,
+        "coinbase_price": 0.40535
     },
     {
-        "timestamp": "2024-11-25 14:50:53",
+        "timestamp": "2024-11-25 15:24:12",
         "pair": "DOGE/USD",
-        "kraken_price": 0.404557,
-        "coinbase_price": 0.40458
+        "kraken_price": 0.4048452,
+        "coinbase_price": 0.405485
     },
     {
-        "timestamp": "2024-11-25 14:50:55",
+        "timestamp": "2024-11-25 15:24:14",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4045569,
-        "coinbase_price": 0.404615
+        "kraken_price": 0.4048452,
+        "coinbase_price": 0.405485
     },
     {
-        "timestamp": "2024-11-25 14:50:56",
+        "timestamp": "2024-11-25 15:24:15",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4045569,
-        "coinbase_price": 0.40458
+        "kraken_price": 0.4048452,
+        "coinbase_price": 0.40535
     },
     {
-        "timestamp": "2024-11-25 14:50:58",
+        "timestamp": "2024-11-25 15:24:16",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4045569,
-        "coinbase_price": 0.40458
+        "kraken_price": 0.4048452,
+        "coinbase_price": 0.40535
     },
     {
-        "timestamp": "2024-11-25 14:50:59",
+        "timestamp": "2024-11-25 15:24:18",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4045569,
-        "coinbase_price": 0.40472
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.40535
     },
     {
-        "timestamp": "2024-11-25 14:51:01",
+        "timestamp": "2024-11-25 15:24:19",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.40458
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405395
     },
     {
-        "timestamp": "2024-11-25 14:51:02",
+        "timestamp": "2024-11-25 15:24:20",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.40458
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405395
     },
     {
-        "timestamp": "2024-11-25 14:51:03",
+        "timestamp": "2024-11-25 15:24:22",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.404545
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405395
     },
     {
-        "timestamp": "2024-11-25 14:51:05",
+        "timestamp": "2024-11-25 15:24:23",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.404755
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.40535
     },
     {
-        "timestamp": "2024-11-25 14:51:06",
+        "timestamp": "2024-11-25 15:24:24",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.404755
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.40535
     },
     {
-        "timestamp": "2024-11-25 14:51:08",
+        "timestamp": "2024-11-25 15:24:26",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.404755
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.40535
     },
     {
-        "timestamp": "2024-11-25 14:51:09",
+        "timestamp": "2024-11-25 15:24:27",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.404755
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405325
     },
     {
-        "timestamp": "2024-11-25 14:51:11",
+        "timestamp": "2024-11-25 15:24:28",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.404685
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405325
     },
     {
-        "timestamp": "2024-11-25 14:51:13",
+        "timestamp": "2024-11-25 15:24:30",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.404685
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.40535
     },
     {
-        "timestamp": "2024-11-25 14:51:14",
+        "timestamp": "2024-11-25 15:24:31",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.404685
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405325
     },
     {
-        "timestamp": "2024-11-25 14:51:15",
+        "timestamp": "2024-11-25 15:24:32",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.404755
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405065
     },
     {
-        "timestamp": "2024-11-25 14:56:10",
+        "timestamp": "2024-11-25 15:24:34",
         "pair": "DOGE/USD",
-        "kraken_price": 0.404728,
-        "coinbase_price": 0.404915
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405065
     },
     {
-        "timestamp": "2024-11-25 14:56:12",
+        "timestamp": "2024-11-25 15:24:35",
         "pair": "DOGE/USD",
-        "kraken_price": 0.404728,
-        "coinbase_price": 0.404915
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405105
     },
     {
-        "timestamp": "2024-11-25 14:56:13",
+        "timestamp": "2024-11-25 15:24:36",
         "pair": "DOGE/USD",
-        "kraken_price": 0.404728,
-        "coinbase_price": 0.404805
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405105
     },
     {
-        "timestamp": "2024-11-25 14:56:14",
+        "timestamp": "2024-11-25 15:24:37",
         "pair": "DOGE/USD",
-        "kraken_price": 0.404728,
-        "coinbase_price": 0.404805
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405065
     },
     {
-        "timestamp": "2024-11-25 14:56:16",
+        "timestamp": "2024-11-25 15:24:39",
         "pair": "DOGE/USD",
-        "kraken_price": 0.404728,
-        "coinbase_price": 0.404805
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.40508
     },
     {
-        "timestamp": "2024-11-25 14:56:18",
+        "timestamp": "2024-11-25 15:24:40",
         "pair": "DOGE/USD",
-        "kraken_price": 0.404728,
-        "coinbase_price": 0.404915
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.40508
     },
     {
-        "timestamp": "2024-11-25 14:56:19",
+        "timestamp": "2024-11-25 15:24:41",
         "pair": "DOGE/USD",
-        "kraken_price": 0.404728,
-        "coinbase_price": 0.404915
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40535
     },
     {
-        "timestamp": "2024-11-25 14:56:20",
+        "timestamp": "2024-11-25 15:24:43",
         "pair": "DOGE/USD",
-        "kraken_price": 0.404728,
-        "coinbase_price": 0.404905
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.405235
     },
     {
-        "timestamp": "2024-11-25 14:56:22",
+        "timestamp": "2024-11-25 15:24:44",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4048264,
-        "coinbase_price": 0.404905
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.405235
     },
     {
-        "timestamp": "2024-11-25 14:56:24",
+        "timestamp": "2024-11-25 15:24:45",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4048264,
-        "coinbase_price": 0.404805
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.405235
     },
     {
-        "timestamp": "2024-11-25 14:56:25",
+        "timestamp": "2024-11-25 15:24:47",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4048264,
-        "coinbase_price": 0.404805
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40508
     },
     {
-        "timestamp": "2024-11-25 14:56:27",
+        "timestamp": "2024-11-25 15:24:48",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4048264,
-        "coinbase_price": 0.404715
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40508
     },
     {
-        "timestamp": "2024-11-25 14:56:28",
+        "timestamp": "2024-11-25 15:24:49",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4048264,
-        "coinbase_price": 0.404715
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569
     },
     {
-        "timestamp": "2024-11-25 14:56:30",
+        "timestamp": "2024-11-25 15:24:50",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4047895,
-        "coinbase_price": 0.404715
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569
     },
     {
-        "timestamp": "2024-11-25 14:56:31",
+        "timestamp": "2024-11-25 15:24:52",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4047895,
-        "coinbase_price": 0.404905
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569
     },
     {
-        "timestamp": "2024-11-25 14:56:33",
+        "timestamp": "2024-11-25 15:24:53",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404715
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569
     },
     {
-        "timestamp": "2024-11-25 14:56:34",
+        "timestamp": "2024-11-25 15:24:54",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404715
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569
     },
     {
-        "timestamp": "2024-11-25 14:56:36",
+        "timestamp": "2024-11-25 15:24:56",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404925
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569
     },
     {
-        "timestamp": "2024-11-25 14:56:37",
+        "timestamp": "2024-11-25 15:24:57",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404925
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569
     },
     {
-        "timestamp": "2024-11-25 14:56:38",
+        "timestamp": "2024-11-25 15:24:58",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404925
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569
     },
     {
-        "timestamp": "2024-11-25 14:56:40",
+        "timestamp": "2024-11-25 15:25:00",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404925
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40571
     },
     {
-        "timestamp": "2024-11-25 14:56:41",
+        "timestamp": "2024-11-25 15:25:01",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404455
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40571
     },
     {
-        "timestamp": "2024-11-25 14:56:42",
+        "timestamp": "2024-11-25 15:25:02",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404455
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40571
     },
     {
-        "timestamp": "2024-11-25 14:56:43",
+        "timestamp": "2024-11-25 15:25:03",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404455
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.405855
     },
     {
-        "timestamp": "2024-11-25 14:56:45",
+        "timestamp": "2024-11-25 15:25:05",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404455
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569
     },
     {
-        "timestamp": "2024-11-25 14:56:46",
+        "timestamp": "2024-11-25 15:25:06",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404535
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569
     },
     {
-        "timestamp": "2024-11-25 14:56:48",
+        "timestamp": "2024-11-25 15:25:08",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404535
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40571
     },
     {
-        "timestamp": "2024-11-25 14:56:49",
+        "timestamp": "2024-11-25 15:25:09",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.40404
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40597
     },
     {
-        "timestamp": "2024-11-25 14:56:51",
+        "timestamp": "2024-11-25 15:25:10",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4038469,
-        "coinbase_price": 0.40404
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40597
     },
     {
-        "timestamp": "2024-11-25 14:56:52",
+        "timestamp": "2024-11-25 15:25:12",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4038469,
-        "coinbase_price": 0.404455
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40597
     },
     {
-        "timestamp": "2024-11-25 14:56:54",
+        "timestamp": "2024-11-25 15:25:13",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4038469,
-        "coinbase_price": 0.404455
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40593
     },
     {
-        "timestamp": "2024-11-25 14:56:56",
+        "timestamp": "2024-11-25 15:25:15",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4038469,
-        "coinbase_price": 0.40404
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40593
     },
     {
-        "timestamp": "2024-11-25 14:56:57",
+        "timestamp": "2024-11-25 15:25:16",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4038469,
-        "coinbase_price": 0.403995
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40593
     },
     {
-        "timestamp": "2024-11-25 14:56:58",
+        "timestamp": "2024-11-25 15:25:17",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037388,
-        "coinbase_price": 0.403945
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40593
     },
     {
-        "timestamp": "2024-11-25 14:57:00",
+        "timestamp": "2024-11-25 15:25:18",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037388,
-        "coinbase_price": 0.403945
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40593
     },
     {
-        "timestamp": "2024-11-25 14:57:01",
+        "timestamp": "2024-11-25 15:25:20",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037388,
-        "coinbase_price": 0.403945
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40593
     },
     {
-        "timestamp": "2024-11-25 14:57:03",
+        "timestamp": "2024-11-25 15:25:21",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037854,
-        "coinbase_price": 0.403995
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.405985
     },
     {
-        "timestamp": "2024-11-25 14:57:04",
+        "timestamp": "2024-11-25 15:25:22",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037854,
-        "coinbase_price": 0.403995
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.405855
     },
     {
-        "timestamp": "2024-11-25 14:57:05",
+        "timestamp": "2024-11-25 15:25:24",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037854,
-        "coinbase_price": 0.403945
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40597
     },
     {
-        "timestamp": "2024-11-25 14:57:07",
+        "timestamp": "2024-11-25 15:25:25",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037854,
-        "coinbase_price": 0.403995
+        "kraken_price": 0.4056869,
+        "coinbase_price": 0.405845
     },
     {
-        "timestamp": "2024-11-25 14:57:08",
+        "timestamp": "2024-11-25 15:25:26",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037854,
-        "coinbase_price": 0.403995
+        "kraken_price": 0.4056869,
+        "coinbase_price": 0.405845
     },
     {
-        "timestamp": "2024-11-25 14:57:09",
+        "timestamp": "2024-11-25 15:25:28",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037854,
-        "coinbase_price": 0.403955
+        "kraken_price": 0.4056869,
+        "coinbase_price": 0.405845
     },
     {
-        "timestamp": "2024-11-25 14:57:11",
+        "timestamp": "2024-11-25 15:25:29",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037854,
-        "coinbase_price": 0.403955
+        "kraken_price": 0.4056869,
+        "coinbase_price": 0.405845
     },
     {
-        "timestamp": "2024-11-25 14:57:12",
+        "timestamp": "2024-11-25 15:25:30",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4038897,
-        "coinbase_price": 0.403955
+        "kraken_price": 0.4056869,
+        "coinbase_price": 0.405845
     },
     {
-        "timestamp": "2024-11-25 14:57:14",
+        "timestamp": "2024-11-25 15:25:31",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4040959,
-        "coinbase_price": 0.404125
+        "kraken_price": 0.4056869,
+        "coinbase_price": 0.405655
     },
     {
-        "timestamp": "2024-11-25 14:57:16",
+        "timestamp": "2024-11-25 15:25:33",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4040959,
-        "coinbase_price": 0.40411
+        "kraken_price": 0.4056869,
+        "coinbase_price": 0.406095
     },
     {
-        "timestamp": "2024-11-25 14:57:17",
+        "timestamp": "2024-11-25 15:25:34",
         "pair": "DOGE/USD",
-        "kraken_price": 0.4040959,
-        "coinbase_price": 0.404125
+        "kraken_price": 0.4059887,
+        "coinbase_price": 0.406095
     }
 ]

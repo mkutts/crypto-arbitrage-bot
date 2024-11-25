@@ -1,1002 +1,1002 @@
 [
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4042513,
-        "coinbase_price": 0.404345,
-        "price_difference": 9.370000000002987e-05,
-        "percentage_difference": 0.02317596555908798,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:01"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4042513,
-        "coinbase_price": 0.404345,
-        "price_difference": 9.370000000002987e-05,
-        "percentage_difference": 0.02317596555908798,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:02"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4042513,
-        "coinbase_price": 0.40444,
-        "price_difference": 0.0001887000000000416,
-        "percentage_difference": 0.046667993089586,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:04"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4042513,
-        "coinbase_price": 0.40444,
-        "price_difference": 0.0001887000000000416,
-        "percentage_difference": 0.046667993089586,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:05"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4042513,
-        "coinbase_price": 0.404465,
-        "price_difference": 0.00021370000000003886,
-        "percentage_difference": 0.05284918827530467,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:07"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4042516,
-        "coinbase_price": 0.404465,
-        "price_difference": 0.00021340000000003023,
-        "percentage_difference": 0.05277497704388168,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:08"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4042516,
-        "coinbase_price": 0.40444,
-        "price_difference": 0.00018840000000003299,
-        "percentage_difference": 0.04659378185702263,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:10"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4042516,
-        "coinbase_price": 0.404475,
-        "price_difference": 0.00022339999999998472,
-        "percentage_difference": 0.05524734811492159,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:11"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4042415,
-        "coinbase_price": 0.404475,
-        "price_difference": 0.0002334999999999976,
-        "percentage_difference": 0.05774582316547211,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:13"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4042415,
-        "coinbase_price": 0.404475,
-        "price_difference": 0.0002334999999999976,
-        "percentage_difference": 0.05774582316547211,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:14"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4042415,
-        "coinbase_price": 0.404285,
-        "price_difference": 4.3500000000029626e-05,
-        "percentage_difference": 0.01076031521540225,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:15"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4042415,
-        "coinbase_price": 0.404285,
-        "price_difference": 4.3500000000029626e-05,
-        "percentage_difference": 0.01076031521540225,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:17"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4042415,
-        "coinbase_price": 0.404285,
-        "price_difference": 4.3500000000029626e-05,
-        "percentage_difference": 0.01076031521540225,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:18"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4042415,
-        "coinbase_price": 0.40444,
-        "price_difference": 0.00019850000000004586,
-        "percentage_difference": 0.04909225696397057,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:19"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4042415,
-        "coinbase_price": 0.404285,
-        "price_difference": 4.3500000000029626e-05,
-        "percentage_difference": 0.01076031521540225,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:21"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4041941,
-        "coinbase_price": 0.404285,
-        "price_difference": 9.090000000000487e-05,
-        "percentage_difference": 0.022486666631210347,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:22"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4041941,
-        "coinbase_price": 0.403975,
-        "price_difference": 0.0002191000000000276,
-        "percentage_difference": 0.05422132571018309,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:23"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4042625,
-        "coinbase_price": 0.404285,
-        "price_difference": 2.249999999998087e-05,
-        "percentage_difference": 0.005565535729188667,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:25"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4042625,
-        "coinbase_price": 0.404285,
-        "price_difference": 2.249999999998087e-05,
-        "percentage_difference": 0.005565535729188667,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:26"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.404328,
-        "coinbase_price": 0.403975,
-        "price_difference": 0.0003530000000000477,
-        "percentage_difference": 0.0873434838173427,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:27"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.40406,
-        "price_difference": 0.0003567000000000431,
-        "percentage_difference": 0.08824001978041993,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:29"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404315,
-        "price_difference": 0.00010170000000003787,
-        "percentage_difference": 0.025150491813301708,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:30"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404315,
-        "price_difference": 0.00010170000000003787,
-        "percentage_difference": 0.025150491813301708,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:32"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.403975,
-        "price_difference": 0.00044170000000004483,
-        "percentage_difference": 0.10927870733953474,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:33"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404555,
-        "price_difference": 0.0001382999999999801,
-        "percentage_difference": 0.03419155453768781,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:35"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.40406,
-        "price_difference": 0.0003567000000000431,
-        "percentage_difference": 0.08824001978041993,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:37"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.40406,
-        "price_difference": 0.0003567000000000431,
-        "percentage_difference": 0.08824001978041993,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:38"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404715,
-        "price_difference": 0.0002982999999999736,
-        "percentage_difference": 0.07373336133041718,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:39"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404715,
-        "price_difference": 0.0002982999999999736,
-        "percentage_difference": 0.07373336133041718,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:41"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404715,
-        "price_difference": 0.0002982999999999736,
-        "percentage_difference": 0.07373336133041718,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:42"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404715,
-        "price_difference": 0.0002982999999999736,
-        "percentage_difference": 0.07373336133041718,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:43"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404555,
-        "price_difference": 0.0001382999999999801,
-        "percentage_difference": 0.03419155453768781,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:45"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404555,
-        "price_difference": 0.0001382999999999801,
-        "percentage_difference": 0.03419155453768781,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:46"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404615,
-        "price_difference": 0.0001982999999999846,
-        "percentage_difference": 0.04902156491519049,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:48"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.40472,
-        "price_difference": 0.00030330000000000634,
-        "percentage_difference": 0.0749687908112452,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:49"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4044167,
-        "coinbase_price": 0.404615,
-        "price_difference": 0.0001982999999999846,
-        "percentage_difference": 0.04902156491519049,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:50"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.404557,
-        "coinbase_price": 0.404615,
-        "price_difference": 5.8000000000002494e-05,
-        "percentage_difference": 0.014335641866006856,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:52"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.404557,
-        "coinbase_price": 0.40458,
-        "price_difference": 2.2999999999995246e-05,
-        "percentage_difference": 0.005685069401101481,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:53"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4045569,
-        "coinbase_price": 0.404615,
-        "price_difference": 5.810000000000537e-05,
-        "percentage_difference": 0.014360360264612595,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:55"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4045569,
-        "coinbase_price": 0.40458,
-        "price_difference": 2.3099999999998122e-05,
-        "percentage_difference": 0.005709787799814376,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:56"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4045569,
-        "coinbase_price": 0.40458,
-        "price_difference": 2.3099999999998122e-05,
-        "percentage_difference": 0.005709787799814376,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:58"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4045569,
-        "coinbase_price": 0.40472,
-        "price_difference": 0.0001631000000000271,
-        "percentage_difference": 0.040307588169148804,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:50:59"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.40458,
-        "price_difference": 2.7900000000025127e-05,
-        "percentage_difference": 0.006895802569471227,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:51:01"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.40458,
-        "price_difference": 2.7900000000025127e-05,
-        "percentage_difference": 0.006895802569471227,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:51:02"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.404545,
-        "price_difference": 6.290000000003237e-05,
-        "percentage_difference": 0.015547123417596941,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:51:03"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.404755,
-        "price_difference": 0.0001470999999999556,
-        "percentage_difference": 0.0363495781682001,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:51:05"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.404755,
-        "price_difference": 0.0001470999999999556,
-        "percentage_difference": 0.0363495781682001,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:51:06"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.404755,
-        "price_difference": 0.0001470999999999556,
-        "percentage_difference": 0.0363495781682001,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:51:08"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.404755,
-        "price_difference": 0.0001470999999999556,
-        "percentage_difference": 0.0363495781682001,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:51:09"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.404685,
-        "price_difference": 7.709999999999662e-05,
-        "percentage_difference": 0.019053670185416583,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:51:11"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.404685,
-        "price_difference": 7.709999999999662e-05,
-        "percentage_difference": 0.019053670185416583,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:51:13"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.404685,
-        "price_difference": 7.709999999999662e-05,
-        "percentage_difference": 0.019053670185416583,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:51:14"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.4046079,
-        "coinbase_price": 0.404755,
-        "price_difference": 0.0001470999999999556,
-        "percentage_difference": 0.0363495781682001,
-        "threshold": 0.86,
-        "is_viable": false,
-        "timestamp": "2024-11-25 14:51:15"
-    },
-    {
-        "pair": "DOGE/USD",
-        "kraken_price": 0.404728,
-        "coinbase_price": 0.404915,
-        "price_difference": 0.00018700000000004824,
-        "percentage_difference": 0.04619319873081055,
+        "kraken_price": 0.4046228,
+        "coinbase_price": 0.40488,
+        "price_difference": 0.000257200000000013,
+        "percentage_difference": 0.06354517859605006,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:10"
+        "timestamp": "2024-11-25 15:23:24"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.404728,
-        "coinbase_price": 0.404915,
-        "price_difference": 0.00018700000000004824,
-        "percentage_difference": 0.04619319873081055,
+        "kraken_price": 0.4048152,
+        "coinbase_price": 0.404765,
+        "price_difference": 5.0200000000000244e-05,
+        "percentage_difference": 0.01240148906803804,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:12"
+        "timestamp": "2024-11-25 15:23:25"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.404728,
-        "coinbase_price": 0.404805,
-        "price_difference": 7.700000000004925e-05,
-        "percentage_difference": 0.01902331344121839,
+        "kraken_price": 0.4048152,
+        "coinbase_price": 0.40464,
+        "price_difference": 0.00017519999999998648,
+        "percentage_difference": 0.043288374699424134,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:13"
+        "timestamp": "2024-11-25 15:23:27"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.404728,
-        "coinbase_price": 0.404805,
-        "price_difference": 7.700000000004925e-05,
-        "percentage_difference": 0.01902331344121839,
+        "kraken_price": 0.4048152,
+        "coinbase_price": 0.40464,
+        "price_difference": 0.00017519999999998648,
+        "percentage_difference": 0.043288374699424134,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:14"
+        "timestamp": "2024-11-25 15:23:28"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.404728,
-        "coinbase_price": 0.404805,
-        "price_difference": 7.700000000004925e-05,
-        "percentage_difference": 0.01902331344121839,
+        "kraken_price": 0.4048152,
+        "coinbase_price": 0.404975,
+        "price_difference": 0.00015979999999998773,
+        "percentage_difference": 0.03946701256695567,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:16"
+        "timestamp": "2024-11-25 15:23:29"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.404728,
-        "coinbase_price": 0.404915,
-        "price_difference": 0.00018700000000004824,
-        "percentage_difference": 0.04619319873081055,
+        "kraken_price": 0.4051843,
+        "coinbase_price": 0.404975,
+        "price_difference": 0.00020930000000002336,
+        "percentage_difference": 0.05166885080502646,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:18"
+        "timestamp": "2024-11-25 15:23:30"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.404728,
-        "coinbase_price": 0.404915,
-        "price_difference": 0.00018700000000004824,
-        "percentage_difference": 0.04619319873081055,
+        "kraken_price": 0.4051843,
+        "coinbase_price": 0.404975,
+        "price_difference": 0.00020930000000002336,
+        "percentage_difference": 0.05166885080502646,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:19"
+        "timestamp": "2024-11-25 15:23:32"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.404728,
-        "coinbase_price": 0.404905,
-        "price_difference": 0.00017700000000003824,
-        "percentage_difference": 0.04372351423423655,
+        "kraken_price": 0.4051843,
+        "coinbase_price": 0.405275,
+        "price_difference": 9.069999999999911e-05,
+        "percentage_difference": 0.02238237009557398,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:20"
+        "timestamp": "2024-11-25 15:23:33"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4048264,
-        "coinbase_price": 0.404905,
-        "price_difference": 7.860000000003975e-05,
-        "percentage_difference": 0.01941384513433461,
+        "kraken_price": 0.4051843,
+        "coinbase_price": 0.40488,
+        "price_difference": 0.0003042999999999796,
+        "percentage_difference": 0.07512983845849756,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:22"
+        "timestamp": "2024-11-25 15:23:34"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4048264,
-        "coinbase_price": 0.404805,
-        "price_difference": 2.1399999999949237e-05,
-        "percentage_difference": 0.005286356235676936,
+        "kraken_price": 0.4051843,
+        "coinbase_price": 0.40488,
+        "price_difference": 0.0003042999999999796,
+        "percentage_difference": 0.07512983845849756,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:24"
+        "timestamp": "2024-11-25 15:23:36"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4048264,
-        "coinbase_price": 0.404805,
-        "price_difference": 2.1399999999949237e-05,
-        "percentage_difference": 0.005286356235676936,
+        "kraken_price": 0.4051843,
+        "coinbase_price": 0.404975,
+        "price_difference": 0.00020930000000002336,
+        "percentage_difference": 0.05166885080502646,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:25"
+        "timestamp": "2024-11-25 15:23:37"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4048264,
-        "coinbase_price": 0.404715,
-        "price_difference": 0.00011139999999998373,
-        "percentage_difference": 0.027521754909627535,
+        "kraken_price": 0.4051843,
+        "coinbase_price": 0.405275,
+        "price_difference": 9.069999999999911e-05,
+        "percentage_difference": 0.02238237009557398,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:27"
+        "timestamp": "2024-11-25 15:23:38"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4048264,
-        "coinbase_price": 0.404715,
-        "price_difference": 0.00011139999999998373,
-        "percentage_difference": 0.027521754909627535,
+        "kraken_price": 0.4051843,
+        "coinbase_price": 0.405275,
+        "price_difference": 9.069999999999911e-05,
+        "percentage_difference": 0.02238237009557398,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:28"
+        "timestamp": "2024-11-25 15:23:40"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4047895,
-        "coinbase_price": 0.404715,
-        "price_difference": 7.450000000003287e-05,
-        "percentage_difference": 0.018406321397850877,
+        "kraken_price": 0.4051843,
+        "coinbase_price": 0.404975,
+        "price_difference": 0.00020930000000002336,
+        "percentage_difference": 0.05166885080502646,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:30"
+        "timestamp": "2024-11-25 15:23:41"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4047895,
-        "coinbase_price": 0.404905,
-        "price_difference": 0.00011549999999999061,
-        "percentage_difference": 0.028529278635334835,
+        "kraken_price": 0.4047879,
+        "coinbase_price": 0.405275,
+        "price_difference": 0.0004871000000000181,
+        "percentage_difference": 0.12026226605366525,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:31"
+        "timestamp": "2024-11-25 15:23:42"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404715,
-        "price_difference": 7.780000000001674e-05,
-        "percentage_difference": 0.01922525199783648,
+        "kraken_price": 0.4047879,
+        "coinbase_price": 0.405455,
+        "price_difference": 0.0006671000000000316,
+        "percentage_difference": 0.16466666971102903,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:33"
+        "timestamp": "2024-11-25 15:23:44"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404715,
-        "price_difference": 7.780000000001674e-05,
-        "percentage_difference": 0.01922525199783648,
+        "kraken_price": 0.4047879,
+        "coinbase_price": 0.404975,
+        "price_difference": 0.0001870999999999956,
+        "percentage_difference": 0.046211057582409766,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:34"
+        "timestamp": "2024-11-25 15:23:45"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404925,
-        "price_difference": 0.0002878000000000047,
-        "percentage_difference": 0.07110015759135116,
+        "kraken_price": 0.4047879,
+        "coinbase_price": 0.404975,
+        "price_difference": 0.0001870999999999956,
+        "percentage_difference": 0.046211057582409766,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:36"
+        "timestamp": "2024-11-25 15:23:46"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404925,
-        "price_difference": 0.0002878000000000047,
-        "percentage_difference": 0.07110015759135116,
+        "kraken_price": 0.4047879,
+        "coinbase_price": 0.404975,
+        "price_difference": 0.0001870999999999956,
+        "percentage_difference": 0.046211057582409766,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:37"
+        "timestamp": "2024-11-25 15:23:48"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404925,
-        "price_difference": 0.0002878000000000047,
-        "percentage_difference": 0.07110015759135116,
+        "kraken_price": 0.4047879,
+        "coinbase_price": 0.405445,
+        "price_difference": 0.0006571000000000216,
+        "percentage_difference": 0.16220027599472242,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:38"
+        "timestamp": "2024-11-25 15:23:49"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404925,
-        "price_difference": 0.0002878000000000047,
-        "percentage_difference": 0.07110015759135116,
+        "kraken_price": 0.4047879,
+        "coinbase_price": 0.405445,
+        "price_difference": 0.0006571000000000216,
+        "percentage_difference": 0.16220027599472242,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:40"
+        "timestamp": "2024-11-25 15:23:50"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404455,
-        "price_difference": 0.00018219999999996572,
-        "percentage_difference": 0.04503813038859248,
+        "kraken_price": 0.4047879,
+        "coinbase_price": 0.4053,
+        "price_difference": 0.0005121000000000153,
+        "percentage_difference": 0.12643072436954444,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:41"
+        "timestamp": "2024-11-25 15:23:52"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404455,
-        "price_difference": 0.00018219999999996572,
-        "percentage_difference": 0.04503813038859248,
+        "kraken_price": 0.4047879,
+        "coinbase_price": 0.405355,
+        "price_difference": 0.0005671000000000426,
+        "percentage_difference": 0.13999999259390966,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:42"
+        "timestamp": "2024-11-25 15:23:53"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404455,
-        "price_difference": 0.00018219999999996572,
-        "percentage_difference": 0.04503813038859248,
+        "kraken_price": 0.4048547,
+        "coinbase_price": 0.405355,
+        "price_difference": 0.0005003000000000091,
+        "percentage_difference": 0.12349889170668014,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:43"
+        "timestamp": "2024-11-25 15:23:54"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404455,
-        "price_difference": 0.00018219999999996572,
-        "percentage_difference": 0.04503813038859248,
+        "kraken_price": 0.4048547,
+        "coinbase_price": 0.405445,
+        "price_difference": 0.0005902999999999881,
+        "percentage_difference": 0.14569917772399224,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:45"
+        "timestamp": "2024-11-25 15:23:55"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404535,
-        "price_difference": 0.00010219999999999674,
-        "percentage_difference": 0.02526038338934451,
+        "kraken_price": 0.4051642,
+        "coinbase_price": 0.405355,
+        "price_difference": 0.0001908000000000465,
+        "percentage_difference": 0.04708093281443462,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:46"
+        "timestamp": "2024-11-25 15:23:57"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.404535,
-        "price_difference": 0.00010219999999999674,
-        "percentage_difference": 0.02526038338934451,
+        "kraken_price": 0.4051642,
+        "coinbase_price": 0.405355,
+        "price_difference": 0.0001908000000000465,
+        "percentage_difference": 0.04708093281443462,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:48"
+        "timestamp": "2024-11-25 15:23:58"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4046372,
-        "coinbase_price": 0.40404,
-        "price_difference": 0.0005971999999999644,
-        "percentage_difference": 0.14769799371120257,
+        "kraken_price": 0.4051642,
+        "coinbase_price": 0.405445,
+        "price_difference": 0.0002808000000000255,
+        "percentage_difference": 0.06928122700803925,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:49"
+        "timestamp": "2024-11-25 15:23:59"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4038469,
-        "coinbase_price": 0.40404,
-        "price_difference": 0.0001931000000000016,
-        "percentage_difference": 0.047803721040655965,
+        "kraken_price": 0.4051642,
+        "coinbase_price": 0.4053,
+        "price_difference": 0.00013580000000001924,
+        "percentage_difference": 0.0335116591207901,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:51"
+        "timestamp": "2024-11-25 15:24:01"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4038469,
-        "coinbase_price": 0.404455,
-        "price_difference": 0.0006081000000000003,
-        "percentage_difference": 0.15046358297561846,
+        "kraken_price": 0.4051642,
+        "coinbase_price": 0.4053,
+        "price_difference": 0.00013580000000001924,
+        "percentage_difference": 0.0335116591207901,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:52"
+        "timestamp": "2024-11-25 15:24:02"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4038469,
-        "coinbase_price": 0.404455,
-        "price_difference": 0.0006081000000000003,
-        "percentage_difference": 0.15046358297561846,
+        "kraken_price": 0.4049158,
+        "coinbase_price": 0.405485,
+        "price_difference": 0.0005691999999999919,
+        "percentage_difference": 0.14047370140799265,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:54"
+        "timestamp": "2024-11-25 15:24:03"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4038469,
-        "coinbase_price": 0.40404,
-        "price_difference": 0.0001931000000000016,
-        "percentage_difference": 0.047803721040655965,
+        "kraken_price": 0.4049158,
+        "coinbase_price": 0.405485,
+        "price_difference": 0.0005691999999999919,
+        "percentage_difference": 0.14047370140799265,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:56"
+        "timestamp": "2024-11-25 15:24:04"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4038469,
-        "coinbase_price": 0.403995,
-        "price_difference": 0.00014809999999998436,
-        "percentage_difference": 0.03666559013588782,
+        "kraken_price": 0.4049158,
+        "coinbase_price": 0.405445,
+        "price_difference": 0.0005292000000000074,
+        "percentage_difference": 0.13060848945309483,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:57"
+        "timestamp": "2024-11-25 15:24:05"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037388,
-        "coinbase_price": 0.403945,
-        "price_difference": 0.00020619999999998972,
-        "percentage_difference": 0.05105958544667845,
+        "kraken_price": 0.4049158,
+        "coinbase_price": 0.405355,
+        "price_difference": 0.00043920000000002846,
+        "percentage_difference": 0.1084082013075205,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:56:58"
+        "timestamp": "2024-11-25 15:24:07"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037388,
-        "coinbase_price": 0.403945,
-        "price_difference": 0.00020619999999998972,
-        "percentage_difference": 0.05105958544667845,
+        "kraken_price": 0.4051643,
+        "coinbase_price": 0.405355,
+        "price_difference": 0.0001907000000000436,
+        "percentage_difference": 0.04705625146743418,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:57:00"
+        "timestamp": "2024-11-25 15:24:08"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037388,
-        "coinbase_price": 0.403945,
-        "price_difference": 0.00020619999999998972,
-        "percentage_difference": 0.05105958544667845,
+        "kraken_price": 0.4051643,
+        "coinbase_price": 0.405485,
+        "price_difference": 0.0003207000000000071,
+        "percentage_difference": 0.07912176079101212,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:57:01"
+        "timestamp": "2024-11-25 15:24:09"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037854,
-        "coinbase_price": 0.403995,
-        "price_difference": 0.00020959999999997647,
-        "percentage_difference": 0.05189529233439595,
+        "kraken_price": 0.4048452,
+        "coinbase_price": 0.40535,
+        "price_difference": 0.0005047999999999719,
+        "percentage_difference": 0.12461194536822037,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:57:03"
+        "timestamp": "2024-11-25 15:24:11"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037854,
-        "coinbase_price": 0.403995,
-        "price_difference": 0.00020959999999997647,
-        "percentage_difference": 0.05189529233439595,
+        "kraken_price": 0.4048452,
+        "coinbase_price": 0.405485,
+        "price_difference": 0.0006397999999999682,
+        "percentage_difference": 0.15791093556675245,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:57:04"
+        "timestamp": "2024-11-25 15:24:12"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037854,
-        "coinbase_price": 0.403945,
-        "price_difference": 0.00015959999999998198,
-        "percentage_difference": 0.03951813624941737,
+        "kraken_price": 0.4048452,
+        "coinbase_price": 0.405485,
+        "price_difference": 0.0006397999999999682,
+        "percentage_difference": 0.15791093556675245,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:57:05"
+        "timestamp": "2024-11-25 15:24:14"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037854,
-        "coinbase_price": 0.403995,
-        "price_difference": 0.00020959999999997647,
-        "percentage_difference": 0.05189529233439595,
+        "kraken_price": 0.4048452,
+        "coinbase_price": 0.40535,
+        "price_difference": 0.0005047999999999719,
+        "percentage_difference": 0.12461194536822037,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:57:07"
+        "timestamp": "2024-11-25 15:24:15"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037854,
-        "coinbase_price": 0.403995,
-        "price_difference": 0.00020959999999997647,
-        "percentage_difference": 0.05189529233439595,
+        "kraken_price": 0.4048452,
+        "coinbase_price": 0.40535,
+        "price_difference": 0.0005047999999999719,
+        "percentage_difference": 0.12461194536822037,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:57:08"
+        "timestamp": "2024-11-25 15:24:16"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037854,
-        "coinbase_price": 0.403955,
-        "price_difference": 0.00016959999999999198,
-        "percentage_difference": 0.041993690051900824,
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.40535,
+        "price_difference": 0.000661899999999993,
+        "percentage_difference": 0.1634244117653214,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:57:09"
+        "timestamp": "2024-11-25 15:24:18"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4037854,
-        "coinbase_price": 0.403955,
-        "price_difference": 0.00016959999999999198,
-        "percentage_difference": 0.041993690051900824,
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405395,
+        "price_difference": 0.0007069000000000103,
+        "percentage_difference": 0.17452530487304582,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:57:11"
+        "timestamp": "2024-11-25 15:24:19"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4038897,
-        "coinbase_price": 0.403955,
-        "price_difference": 6.529999999999037e-05,
-        "percentage_difference": 0.01616647358087275,
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405395,
+        "price_difference": 0.0007069000000000103,
+        "percentage_difference": 0.17452530487304582,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:57:12"
+        "timestamp": "2024-11-25 15:24:20"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4040959,
-        "coinbase_price": 0.404125,
-        "price_difference": 2.9100000000004123e-05,
-        "percentage_difference": 0.007201001607358613,
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405395,
+        "price_difference": 0.0007069000000000103,
+        "percentage_difference": 0.17452530487304582,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:57:14"
+        "timestamp": "2024-11-25 15:24:22"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4040959,
-        "coinbase_price": 0.40411,
-        "price_difference": 1.4100000000016877e-05,
-        "percentage_difference": 0.003489209865955415,
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.40535,
+        "price_difference": 0.000661899999999993,
+        "percentage_difference": 0.1634244117653214,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:57:16"
+        "timestamp": "2024-11-25 15:24:23"
     },
     {
         "pair": "DOGE/USD",
-        "kraken_price": 0.4040959,
-        "coinbase_price": 0.404125,
-        "price_difference": 2.9100000000004123e-05,
-        "percentage_difference": 0.007201001607358613,
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.40535,
+        "price_difference": 0.000661899999999993,
+        "percentage_difference": 0.1634244117653214,
         "threshold": 0.5700000000000001,
         "is_viable": false,
-        "timestamp": "2024-11-25 14:57:17"
+        "timestamp": "2024-11-25 15:24:24"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.40535,
+        "price_difference": 0.000661899999999993,
+        "percentage_difference": 0.1634244117653214,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:26"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405325,
+        "price_difference": 0.0006368999999999958,
+        "percentage_difference": 0.15725671597162955,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:27"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405325,
+        "price_difference": 0.0006368999999999958,
+        "percentage_difference": 0.15725671597162955,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:28"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.40535,
+        "price_difference": 0.000661899999999993,
+        "percentage_difference": 0.1634244117653214,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:30"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405325,
+        "price_difference": 0.0006368999999999958,
+        "percentage_difference": 0.15725671597162955,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:31"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405065,
+        "price_difference": 0.00037690000000001334,
+        "percentage_difference": 0.09309010363776646,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:32"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405065,
+        "price_difference": 0.00037690000000001334,
+        "percentage_difference": 0.09309010363776646,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:34"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405105,
+        "price_difference": 0.00041689999999999783,
+        "percentage_difference": 0.10296457206167794,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:35"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405105,
+        "price_difference": 0.00041689999999999783,
+        "percentage_difference": 0.10296457206167794,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:36"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.405065,
+        "price_difference": 0.00037690000000001334,
+        "percentage_difference": 0.09309010363776646,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:37"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.40508,
+        "price_difference": 0.0003919000000000006,
+        "percentage_difference": 0.09679314361729009,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:39"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4046881,
+        "coinbase_price": 0.40508,
+        "price_difference": 0.0003919000000000006,
+        "percentage_difference": 0.09679314361729009,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:40"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40535,
+        "price_difference": 0.00011719999999998398,
+        "percentage_difference": 0.028917465310140802,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:41"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.405235,
+        "price_difference": 2.2000000000077513e-06,
+        "percentage_difference": 0.0005428963371543572,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:43"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.405235,
+        "price_difference": 2.2000000000077513e-06,
+        "percentage_difference": 0.0005428963371543572,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:44"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.405235,
+        "price_difference": 2.2000000000077513e-06,
+        "percentage_difference": 0.0005428963371543572,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:45"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40508,
+        "price_difference": 0.00015280000000000848,
+        "percentage_difference": 0.03771383100452282,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:47"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40508,
+        "price_difference": 0.00015280000000000848,
+        "percentage_difference": 0.03771383100452282,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:48"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569,
+        "price_difference": 0.00045719999999999095,
+        "percentage_difference": 0.11276042553002358,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:49"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569,
+        "price_difference": 0.00045719999999999095,
+        "percentage_difference": 0.11276042553002358,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:50"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569,
+        "price_difference": 0.00045719999999999095,
+        "percentage_difference": 0.11276042553002358,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:52"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569,
+        "price_difference": 0.00045719999999999095,
+        "percentage_difference": 0.11276042553002358,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:53"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569,
+        "price_difference": 0.00045719999999999095,
+        "percentage_difference": 0.11276042553002358,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:54"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569,
+        "price_difference": 0.00045719999999999095,
+        "percentage_difference": 0.11276042553002358,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:56"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569,
+        "price_difference": 0.00045719999999999095,
+        "percentage_difference": 0.11276042553002358,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:57"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569,
+        "price_difference": 0.00045719999999999095,
+        "percentage_difference": 0.11276042553002358,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:24:58"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40571,
+        "price_difference": 0.00047720000000001095,
+        "percentage_difference": 0.11769017494205779,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:00"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40571,
+        "price_difference": 0.00047720000000001095,
+        "percentage_difference": 0.11769017494205779,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:01"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40571,
+        "price_difference": 0.00047720000000001095,
+        "percentage_difference": 0.11769017494205779,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:02"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.405855,
+        "price_difference": 0.0006222000000000172,
+        "percentage_difference": 0.153423587434065,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:03"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569,
+        "price_difference": 0.00045719999999999095,
+        "percentage_difference": 0.11276042553002358,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:05"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40569,
+        "price_difference": 0.00045719999999999095,
+        "percentage_difference": 0.11276042553002358,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:06"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40571,
+        "price_difference": 0.00047720000000001095,
+        "percentage_difference": 0.11769017494205779,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:08"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40597,
+        "price_difference": 0.0007371999999999934,
+        "percentage_difference": 0.18175479670434902,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:09"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40597,
+        "price_difference": 0.0007371999999999934,
+        "percentage_difference": 0.18175479670434902,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:10"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40597,
+        "price_difference": 0.0007371999999999934,
+        "percentage_difference": 0.18175479670434902,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:12"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40593,
+        "price_difference": 0.0006972000000000089,
+        "percentage_difference": 0.17190137417544515,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:13"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40593,
+        "price_difference": 0.0006972000000000089,
+        "percentage_difference": 0.17190137417544515,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:15"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40593,
+        "price_difference": 0.0006972000000000089,
+        "percentage_difference": 0.17190137417544515,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:16"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40593,
+        "price_difference": 0.0006972000000000089,
+        "percentage_difference": 0.17190137417544515,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:17"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40593,
+        "price_difference": 0.0006972000000000089,
+        "percentage_difference": 0.17190137417544515,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:18"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40593,
+        "price_difference": 0.0006972000000000089,
+        "percentage_difference": 0.17190137417544515,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:20"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.405985,
+        "price_difference": 0.0007521999999999807,
+        "percentage_difference": 0.18544957963200034,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:21"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.405855,
+        "price_difference": 0.0006222000000000172,
+        "percentage_difference": 0.153423587434065,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:22"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4052328,
+        "coinbase_price": 0.40597,
+        "price_difference": 0.0007371999999999934,
+        "percentage_difference": 0.18175479670434902,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:24"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4056869,
+        "coinbase_price": 0.405845,
+        "price_difference": 0.00015809999999999436,
+        "percentage_difference": 0.03896334820602723,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:25"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4056869,
+        "coinbase_price": 0.405845,
+        "price_difference": 0.00015809999999999436,
+        "percentage_difference": 0.03896334820602723,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:26"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4056869,
+        "coinbase_price": 0.405845,
+        "price_difference": 0.00015809999999999436,
+        "percentage_difference": 0.03896334820602723,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:28"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4056869,
+        "coinbase_price": 0.405845,
+        "price_difference": 0.00015809999999999436,
+        "percentage_difference": 0.03896334820602723,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:29"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4056869,
+        "coinbase_price": 0.405845,
+        "price_difference": 0.00015809999999999436,
+        "percentage_difference": 0.03896334820602723,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:30"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4056869,
+        "coinbase_price": 0.405655,
+        "price_difference": 3.190000000002913e-05,
+        "percentage_difference": 0.007863515985068473,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:31"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4056869,
+        "coinbase_price": 0.406095,
+        "price_difference": 0.0004080999999999668,
+        "percentage_difference": 0.10054424716785797,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:33"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4059887,
+        "coinbase_price": 0.406095,
+        "price_difference": 0.00010630000000000361,
+        "percentage_difference": 0.02617956745099147,
+        "threshold": 0.5700000000000001,
+        "is_viable": false,
+        "timestamp": "2024-11-25 15:25:34"
     }
 ]
