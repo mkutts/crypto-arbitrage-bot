@@ -1,0 +1,1730 @@
+[
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3986877,
+        "coinbase_price": 0.3992,
+        "difference_percent": 0.12841406127704966,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94961.3,
+        "coinbase_price": 94947.225,
+        "difference_percent": 0.014822925932363583,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3988435,
+        "coinbase_price": 0.39867,
+        "difference_percent": 0.04351023524993448,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94961.3,
+        "coinbase_price": 94949.655,
+        "difference_percent": 0.012263642189576767,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3988435,
+        "coinbase_price": 0.398545,
+        "difference_percent": 0.07486940180352107,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94961.3,
+        "coinbase_price": 94919.95,
+        "difference_percent": 0.04355353674994853,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3989999,
+        "coinbase_price": 0.398825,
+        "difference_percent": 0.04384420691809277,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94961.4,
+        "coinbase_price": 94921.695,
+        "difference_percent": 0.041820468536166625,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3989999,
+        "coinbase_price": 0.39893,
+        "difference_percent": 0.017520336059599125,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94938.1,
+        "coinbase_price": 94908.04,
+        "difference_percent": 0.03166774947334954,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3989999,
+        "coinbase_price": 0.398715,
+        "difference_percent": 0.071429028090119,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94915.8,
+        "coinbase_price": 94908.04,
+        "difference_percent": 0.008176001496976684,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3988791,
+        "coinbase_price": 0.398865,
+        "difference_percent": 0.003534968168354079,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94915.8,
+        "coinbase_price": 94864.96,
+        "difference_percent": 0.05357761239863989,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3988791,
+        "coinbase_price": 0.398715,
+        "difference_percent": 0.04114874972119286,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94915.8,
+        "coinbase_price": 94898.61,
+        "difference_percent": 0.018112428871972713,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3988791,
+        "coinbase_price": 0.398715,
+        "difference_percent": 0.04114874972119286,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94915.8,
+        "coinbase_price": 94882.45,
+        "difference_percent": 0.03514257902800033,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3988791,
+        "coinbase_price": 0.399005,
+        "difference_percent": 0.031558468203593,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94915.8,
+        "coinbase_price": 94897.315,
+        "difference_percent": 0.019477052468161206,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3988791,
+        "coinbase_price": 0.39899,
+        "difference_percent": 0.027799046234532672,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94915.8,
+        "coinbase_price": 94884.63,
+        "difference_percent": 0.03284502569356482,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3988594,
+        "coinbase_price": 0.39899,
+        "difference_percent": 0.03273800794988033,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94904.4,
+        "coinbase_price": 94910.995,
+        "difference_percent": 0.0069488568090076835,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3988594,
+        "coinbase_price": 0.398825,
+        "difference_percent": 0.008624964961077336,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94900.3,
+        "coinbase_price": 94917.875,
+        "difference_percent": 0.01851772097165837,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3991487,
+        "coinbase_price": 0.398825,
+        "difference_percent": 0.08113049339847613,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94904.3,
+        "coinbase_price": 94917.875,
+        "difference_percent": 0.014302860032024278,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.399302,
+        "coinbase_price": 0.398825,
+        "difference_percent": 0.1195298492595803,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94949.8,
+        "coinbase_price": 94921.675,
+        "difference_percent": 0.02962530311622638,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3992957,
+        "coinbase_price": 0.399385,
+        "difference_percent": 0.022361877531287377,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94949.9,
+        "coinbase_price": 94958.155,
+        "difference_percent": 0.008693680739350057,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.399245,
+        "coinbase_price": 0.39929,
+        "difference_percent": 0.01127063935831535,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94967.9,
+        "coinbase_price": 94971.405,
+        "difference_percent": 0.0036906526534933428,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.399245,
+        "coinbase_price": 0.399385,
+        "difference_percent": 0.035060040319039726,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94969.1,
+        "coinbase_price": 94971.285,
+        "difference_percent": 0.002300721881760608,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.399245,
+        "coinbase_price": 0.39929,
+        "difference_percent": 0.01127063935831535,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94969.1,
+        "coinbase_price": 94963.815,
+        "difference_percent": 0.005565122822448644,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.399245,
+        "coinbase_price": 0.398955,
+        "difference_percent": 0.07266349285893572,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94969.1,
+        "coinbase_price": 94963.815,
+        "difference_percent": 0.005565122822448644,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3992266,
+        "coinbase_price": 0.39903,
+        "difference_percent": 0.04925734406705593,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94969.1,
+        "coinbase_price": 94972.715,
+        "difference_percent": 0.003806428826628499,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3992266,
+        "coinbase_price": 0.39903,
+        "difference_percent": 0.04925734406705593,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94955.1,
+        "coinbase_price": 94947.725,
+        "difference_percent": 0.00776713037312636,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3992266,
+        "coinbase_price": 0.39903,
+        "difference_percent": 0.04925734406705593,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94951.7,
+        "coinbase_price": 94947.725,
+        "difference_percent": 0.004186426578165014,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3992267,
+        "coinbase_price": 0.39903,
+        "difference_percent": 0.049282392493541015,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 94985.8,
+        "coinbase_price": 94947.725,
+        "difference_percent": 0.040092974634148536,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3994674,
+        "coinbase_price": 0.399395,
+        "difference_percent": 0.018125774851832428,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95007.5,
+        "coinbase_price": 94939.925,
+        "difference_percent": 0.0711512672519747,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3994674,
+        "coinbase_price": 0.399395,
+        "difference_percent": 0.018125774851832428,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95007.5,
+        "coinbase_price": 94983.835,
+        "difference_percent": 0.02491166241870304,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3999313,
+        "coinbase_price": 0.39999,
+        "difference_percent": 0.014676443795164003,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95007.5,
+        "coinbase_price": 95054.995,
+        "difference_percent": 0.04997829792773723,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.3999313,
+        "coinbase_price": 0.400205,
+        "difference_percent": 0.06841334407649993,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95029.8,
+        "coinbase_price": 95095.11,
+        "difference_percent": 0.06870220214699659,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4008072,
+        "coinbase_price": 0.400205,
+        "difference_percent": 0.1503597573170539,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95029.9,
+        "coinbase_price": 95086.9,
+        "difference_percent": 0.05996313844962676,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4006502,
+        "coinbase_price": 0.40049,
+        "difference_percent": 0.03999299997678289,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95043.9,
+        "coinbase_price": 95086.9,
+        "difference_percent": 0.045232019220452446,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4009626,
+        "coinbase_price": 0.40049,
+        "difference_percent": 0.11793585796589585,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95123.7,
+        "coinbase_price": 95075.055,
+        "difference_percent": 0.05115175438451642,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4008279,
+        "coinbase_price": 0.400265,
+        "difference_percent": 0.1405330143357987,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95116.7,
+        "coinbase_price": 95135.765,
+        "difference_percent": 0.020041790260118132,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4008279,
+        "coinbase_price": 0.4006,
+        "difference_percent": 0.056873487933225955,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95116.7,
+        "coinbase_price": 95111.005,
+        "difference_percent": 0.005987561065295334,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4008445,
+        "coinbase_price": 0.40083,
+        "difference_percent": 0.003617428270444642,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95124.1,
+        "coinbase_price": 95111.005,
+        "difference_percent": 0.013767175096311654,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4008869,
+        "coinbase_price": 0.400795,
+        "difference_percent": 0.022926799270378467,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95124.1,
+        "coinbase_price": 95119.52,
+        "difference_percent": 0.0048148789431169845,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.401002,
+        "coinbase_price": 0.400825,
+        "difference_percent": 0.04414917432314906,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95164.1,
+        "coinbase_price": 95134.685,
+        "difference_percent": 0.030914543148563085,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4010346,
+        "coinbase_price": 0.400795,
+        "difference_percent": 0.059763321284224596,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95164.0,
+        "coinbase_price": 95134.685,
+        "difference_percent": 0.030809461452665665,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4013767,
+        "coinbase_price": 0.401155,
+        "difference_percent": 0.05525015398145428,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95168.4,
+        "coinbase_price": 95174.065,
+        "difference_percent": 0.005952428954840056,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4013767,
+        "coinbase_price": 0.401355,
+        "difference_percent": 0.00540653869778853,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95168.3,
+        "coinbase_price": 95180.495,
+        "difference_percent": 0.012813319884680577,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4014353,
+        "coinbase_price": 0.401295,
+        "difference_percent": 0.03495570056343509,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95140.2,
+        "coinbase_price": 95165.875,
+        "difference_percent": 0.026982848550686476,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4016509,
+        "coinbase_price": 0.401365,
+        "difference_percent": 0.07120656016897052,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95156.9,
+        "coinbase_price": 95165.875,
+        "difference_percent": 0.009431346301046547,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4016448,
+        "coinbase_price": 0.4016,
+        "difference_percent": 0.011154756308415939,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95156.9,
+        "coinbase_price": 95168.595,
+        "difference_percent": 0.012289472831800055,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4016448,
+        "coinbase_price": 0.401365,
+        "difference_percent": 0.0696878170104516,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95156.9,
+        "coinbase_price": 95169.885,
+        "difference_percent": 0.013644952811030337,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.401457,
+        "coinbase_price": 0.401655,
+        "difference_percent": 0.04930819113647311,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95171.7,
+        "coinbase_price": 95181.405,
+        "difference_percent": 0.010196839184736963,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.401457,
+        "coinbase_price": 0.401655,
+        "difference_percent": 0.04930819113647311,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95171.7,
+        "coinbase_price": 95181.405,
+        "difference_percent": 0.010196839184736963,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.401457,
+        "coinbase_price": 0.401185,
+        "difference_percent": 0.0677761692012116,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95171.7,
+        "coinbase_price": 95136.275,
+        "difference_percent": 0.03722912820653251,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4011867,
+        "coinbase_price": 0.401185,
+        "difference_percent": 0.0004237437586578324,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95156.9,
+        "coinbase_price": 95132.695,
+        "difference_percent": 0.02544017186014526,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4010148,
+        "coinbase_price": 0.40105,
+        "difference_percent": 0.008777345670826846,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95156.9,
+        "coinbase_price": 95139.275,
+        "difference_percent": 0.0185237564549051,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4011002,
+        "coinbase_price": 0.4012,
+        "difference_percent": 0.02487846818434876,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95156.9,
+        "coinbase_price": 95128.415,
+        "difference_percent": 0.02993925201216981,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4010148,
+        "coinbase_price": 0.401025,
+        "difference_percent": 0.0025435146734652703,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95156.9,
+        "coinbase_price": 95128.415,
+        "difference_percent": 0.02993925201216981,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4010148,
+        "coinbase_price": 0.401025,
+        "difference_percent": 0.0025435146734652703,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95116.7,
+        "coinbase_price": 95128.415,
+        "difference_percent": 0.012315690734026477,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4006509,
+        "coinbase_price": 0.401025,
+        "difference_percent": 0.09332948639220509,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95100.0,
+        "coinbase_price": 95096.345,
+        "difference_percent": 0.0038433966751557037,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4006247,
+        "coinbase_price": 0.400655,
+        "difference_percent": 0.007562902192575979,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95100.0,
+        "coinbase_price": 95060.295,
+        "difference_percent": 0.04175950610510123,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4010149,
+        "coinbase_price": 0.40067,
+        "difference_percent": 0.08604378104164899,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95049.2,
+        "coinbase_price": 95014.47,
+        "difference_percent": 0.03654564809781472,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4010149,
+        "coinbase_price": 0.401255,
+        "difference_percent": 0.05985516844143482,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95049.2,
+        "coinbase_price": 95014.47,
+        "difference_percent": 0.03654564809781472,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4011337,
+        "coinbase_price": 0.401225,
+        "difference_percent": 0.02275790117313276,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95037.4,
+        "coinbase_price": 95060.295,
+        "difference_percent": 0.02408761452894426,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4011337,
+        "coinbase_price": 0.401165,
+        "difference_percent": 0.007802580260945675,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95020.2,
+        "coinbase_price": 95051.415,
+        "difference_percent": 0.032845514570912136,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4011337,
+        "coinbase_price": 0.40122,
+        "difference_percent": 0.021511709860636056,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95033.0,
+        "coinbase_price": 95051.415,
+        "difference_percent": 0.019375602150227413,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4009949,
+        "coinbase_price": 0.401055,
+        "difference_percent": 0.014986598714121746,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95056.2,
+        "coinbase_price": 95023.015,
+        "difference_percent": 0.03491702130608828,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4009949,
+        "coinbase_price": 0.40097,
+        "difference_percent": 0.0062097480824894885,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95056.2,
+        "coinbase_price": 95064.955,
+        "difference_percent": 0.009209916697597022,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4011337,
+        "coinbase_price": 0.40114,
+        "difference_percent": 0.0015705363394100114,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95095.7,
+        "coinbase_price": 95064.955,
+        "difference_percent": 0.03233581626019888,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4011337,
+        "coinbase_price": 0.401135,
+        "difference_percent": 0.0003240809469539027,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95086.0,
+        "coinbase_price": 95089.17,
+        "difference_percent": 0.003333768546123297,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4012355,
+        "coinbase_price": 0.40119,
+        "difference_percent": 0.011340616667848075,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95098.3,
+        "coinbase_price": 95117.665,
+        "difference_percent": 0.020361066958802,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4012355,
+        "coinbase_price": 0.40105,
+        "difference_percent": 0.046242889844077976,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95090.9,
+        "coinbase_price": 95099.225,
+        "difference_percent": 0.008754397737539362,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4012355,
+        "coinbase_price": 0.40105,
+        "difference_percent": 0.046242889844077976,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95091.0,
+        "coinbase_price": 95114.195,
+        "difference_percent": 0.02438944951004833,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.401439,
+        "coinbase_price": 0.401465,
+        "difference_percent": 0.006476490340072038,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95091.0,
+        "coinbase_price": 95114.195,
+        "difference_percent": 0.02438944951004833,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.401439,
+        "coinbase_price": 0.40137,
+        "difference_percent": 0.017189642866481503,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95095.4,
+        "coinbase_price": 95126.115,
+        "difference_percent": 0.03229392847597819,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.401439,
+        "coinbase_price": 0.40136,
+        "difference_percent": 0.019681140609292172,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95095.4,
+        "coinbase_price": 95106.945,
+        "difference_percent": 0.01213970311460966,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.401439,
+        "coinbase_price": 0.40136,
+        "difference_percent": 0.019681140609292172,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95090.9,
+        "coinbase_price": 95106.945,
+        "difference_percent": 0.016871905146993445,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4014451,
+        "coinbase_price": 0.40133,
+        "difference_percent": 0.028675528177189127,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95090.9,
+        "coinbase_price": 95103.93,
+        "difference_percent": 0.01370173942162238,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4015,
+        "coinbase_price": 0.40136,
+        "difference_percent": 0.03487532072840321,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95090.9,
+        "coinbase_price": 95103.93,
+        "difference_percent": 0.01370173942162238,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4015,
+        "coinbase_price": 0.401555,
+        "difference_percent": 0.013697691938901253,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95091.0,
+        "coinbase_price": 95111.475,
+        "difference_percent": 0.021529688296648947,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4015,
+        "coinbase_price": 0.40133,
+        "difference_percent": 0.04235018621626085,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95045.5,
+        "coinbase_price": 95111.475,
+        "difference_percent": 0.06939003946608407,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4010551,
+        "coinbase_price": 0.40129,
+        "difference_percent": 0.058553358149749365,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95021.0,
+        "coinbase_price": 95118.18,
+        "difference_percent": 0.10221985810603897,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4015198,
+        "coinbase_price": 0.401375,
+        "difference_percent": 0.036069482577294185,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95076.0,
+        "coinbase_price": 95047.21,
+        "difference_percent": 0.030285623727890558,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4015198,
+        "coinbase_price": 0.400995,
+        "difference_percent": 0.13078886520223476,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95080.5,
+        "coinbase_price": 95042.035,
+        "difference_percent": 0.040463377999874144,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4016847,
+        "coinbase_price": 0.40167,
+        "difference_percent": 0.0036596536996618347,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95098.1,
+        "coinbase_price": 95056.315,
+        "difference_percent": 0.043948493123342404,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4020194,
+        "coinbase_price": 0.40163,
+        "difference_percent": 0.09690793024919565,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95098.1,
+        "coinbase_price": 95102.095,
+        "difference_percent": 0.004200836912912043,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4020194,
+        "coinbase_price": 0.401985,
+        "difference_percent": 0.008557167100091866,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95098.1,
+        "coinbase_price": 95102.095,
+        "difference_percent": 0.004200836912912043,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4020194,
+        "coinbase_price": 0.401845,
+        "difference_percent": 0.04339040265995583,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95098.1,
+        "coinbase_price": 95107.6,
+        "difference_percent": 0.009989185392446177,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4020194,
+        "coinbase_price": 0.401715,
+        "difference_percent": 0.07574641573137544,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95098.1,
+        "coinbase_price": 95107.6,
+        "difference_percent": 0.009989185392446177,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4015185,
+        "coinbase_price": 0.40155,
+        "difference_percent": 0.007844909867593518,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95098.1,
+        "coinbase_price": 95109.425,
+        "difference_percent": 0.011908046224771695,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4015185,
+        "coinbase_price": 0.40155,
+        "difference_percent": 0.007844909867593518,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95084.3,
+        "coinbase_price": 95105.035,
+        "difference_percent": 0.021804587518012595,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4015185,
+        "coinbase_price": 0.401525,
+        "difference_percent": 0.0016188413205562035,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95084.3,
+        "coinbase_price": 95103.515,
+        "difference_percent": 0.020206341820580363,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4015607,
+        "coinbase_price": 0.401515,
+        "difference_percent": 0.01138124338713819,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95084.4,
+        "coinbase_price": 95103.515,
+        "difference_percent": 0.020101172043455275,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4015607,
+        "coinbase_price": 0.401525,
+        "difference_percent": 0.008890707430096656,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95084.3,
+        "coinbase_price": 95099.34,
+        "difference_percent": 0.015816292084843465,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4015607,
+        "coinbase_price": 0.401515,
+        "difference_percent": 0.01138124338713819,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95084.3,
+        "coinbase_price": 95067.34,
+        "difference_percent": 0.017838394662287847,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4014822,
+        "coinbase_price": 0.40144,
+        "difference_percent": 0.010511603739438826,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95086.7,
+        "coinbase_price": 95065.365,
+        "difference_percent": 0.022439935111924082,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4014822,
+        "coinbase_price": 0.40164,
+        "difference_percent": 0.039296635057525675,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95085.0,
+        "coinbase_price": 95105.905,
+        "difference_percent": 0.021983175273285374,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4020523,
+        "coinbase_price": 0.40164,
+        "difference_percent": 0.10260145580590398,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95098.1,
+        "coinbase_price": 95105.905,
+        "difference_percent": 0.008206977555486295,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4020676,
+        "coinbase_price": 0.40152,
+        "difference_percent": 0.1362888128189228,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95109.4,
+        "coinbase_price": 95085.965,
+        "difference_percent": 0.024643082127682424,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4020676,
+        "coinbase_price": 0.402,
+        "difference_percent": 0.016814506640984165,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95109.8,
+        "coinbase_price": 95132.87,
+        "difference_percent": 0.024253234040494107,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4020676,
+        "coinbase_price": 0.402,
+        "difference_percent": 0.016814506640984165,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95098.7,
+        "coinbase_price": 95117.86,
+        "difference_percent": 0.02014545946998883,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4023198,
+        "coinbase_price": 0.40228,
+        "difference_percent": 0.009893117050235094,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95098.7,
+        "coinbase_price": 95123.235,
+        "difference_percent": 0.025796183810246162,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4023198,
+        "coinbase_price": 0.40224,
+        "difference_percent": 0.01983693443297036,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95109.8,
+        "coinbase_price": 95128.065,
+        "difference_percent": 0.019202276055820346,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4023198,
+        "coinbase_price": 0.40228,
+        "difference_percent": 0.009893117050235094,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95109.8,
+        "coinbase_price": 95121.655,
+        "difference_percent": 0.012463764207655274,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4022529,
+        "coinbase_price": 0.402315,
+        "difference_percent": 0.015436857473422407,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95084.9,
+        "coinbase_price": 95133.01,
+        "difference_percent": 0.05058409063584033,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4020773,
+        "coinbase_price": 0.402025,
+        "difference_percent": 0.013008295088822683,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95085.0,
+        "coinbase_price": 95095.705,
+        "difference_percent": 0.011257714077778548,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4021492,
+        "coinbase_price": 0.401955,
+        "difference_percent": 0.04830219765049796,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95085.0,
+        "coinbase_price": 95101.71,
+        "difference_percent": 0.01757220575507763,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4021492,
+        "coinbase_price": 0.402025,
+        "difference_percent": 0.030888829808258765,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95108.7,
+        "coinbase_price": 95134.415,
+        "difference_percent": 0.02703382984450871,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4021492,
+        "coinbase_price": 0.402025,
+        "difference_percent": 0.030888829808258765,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95109.5,
+        "coinbase_price": 95111.625,
+        "difference_percent": 0.00223424185930979,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4023859,
+        "coinbase_price": 0.402425,
+        "difference_percent": 0.009716568202532697,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95109.6,
+        "coinbase_price": 95129.065,
+        "difference_percent": 0.020463768498371775,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4025124,
+        "coinbase_price": 0.40195,
+        "difference_percent": 0.13982008357382977,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95109.5,
+        "coinbase_price": 95130.595,
+        "difference_percent": 0.02217723871511015,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4022111,
+        "coinbase_price": 0.402545,
+        "difference_percent": 0.08298166363696978,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95109.5,
+        "coinbase_price": 95130.595,
+        "difference_percent": 0.02217723871511015,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4022111,
+        "coinbase_price": 0.402395,
+        "difference_percent": 0.04571180854831069,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95108.6,
+        "coinbase_price": 95123.885,
+        "difference_percent": 0.016069810579395986,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4020132,
+        "coinbase_price": 0.402665,
+        "difference_percent": 0.16200264900925118,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95050.0,
+        "coinbase_price": 95067.975,
+        "difference_percent": 0.018909311442019957,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4018125,
+        "coinbase_price": 0.40228,
+        "difference_percent": 0.11628015433547995,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95050.0,
+        "coinbase_price": 95019.585,
+        "difference_percent": 0.0320040684047304,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4021007,
+        "coinbase_price": 0.40228,
+        "difference_percent": 0.04458088067007298,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95036.0,
+        "coinbase_price": 94965.005,
+        "difference_percent": 0.07473118365873417,
+        "threshold_percent": 0.96,
+        "status": "Not Executable"
+    }
+]

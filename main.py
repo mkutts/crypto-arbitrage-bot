@@ -1,100 +1,166 @@
-import os
-import json
 import logging
+import os
+import time
+import json
+from datetime import datetime
 from exchanges.kraken import KrakenAPI
 from exchanges.coinbase import CoinbaseAPI
-import time
+import yaml
+
+# Load configuration
+CONFIG_FILE = os.path.join("config.yaml")
+with open(CONFIG_FILE, "r") as file:
+    config = yaml.safe_load(file)
+
+# Define log paths
+PRICES_LOG_PATH = os.path.join("dashboard", "logs", "prices.json")
+OPPORTUNITIES_LOG_PATH = os.path.join("dashboard", "logs", "opportunities.json")
 
 # Configure logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
 
-# Paths for the dashboard log files
-DASHBOARD_LOGS_DIR = os.path.join(os.getcwd(), "dashboard", "logs")
-PRICES_FILE = os.path.join(DASHBOARD_LOGS_DIR, "prices.json")
-OPPORTUNITIES_FILE = os.path.join(DASHBOARD_LOGS_DIR, "opportunities.json")
 
-# Ensure the dashboard logs directory exists
-os.makedirs(DASHBOARD_LOGS_DIR, exist_ok=True)
-
-def write_json(data, file_path):
+def calculate_threshold(buy_exchange, sell_exchange, profit_margin=0.1):
     """
-    Writes data to a JSON file.
+    Calculate the dynamic threshold for arbitrage detection using config.yaml.
     """
     try:
-        with open(file_path, "w") as file:
-            json.dump(data, file, indent=4)
-        logger.info(f"Updated JSON file: {file_path}")
-    except Exception as e:
-        logger.error(f"Failed to write to {file_path}: {e}")
+        # Locate the correct exchanges in the list
+        buy_exchange_config = next(e for e in config["exchanges"] if e["name"] == buy_exchange)
+        sell_exchange_config = next(e for e in config["exchanges"] if e["name"] == sell_exchange)
+        
+        buy_fee = buy_exchange_config["taker_fee"]
+        sell_fee = sell_exchange_config["taker_fee"]
 
-def fetch_prices(kraken, coinbase, pair):
+        logger.debug(f"Buy fee for {buy_exchange}: {buy_fee}%, Sell fee for {sell_exchange}: {sell_fee}%")
+        return buy_fee + sell_fee + profit_margin
+    except StopIteration as e:
+        logger.error(f"Exchange not found in configuration: {e}")
+        return float("inf")  # Return an impossibly high threshold if config is missing
+
+
+def log_prices(pair, kraken_price, coinbase_price):
     """
-    Fetches prices for a trading pair from Kraken and Coinbase.
+    Logs the prices for a trading pair into the prices.json file.
     """
-    symbol, currency = pair.split("/")
-    kraken_price = kraken.get_price(symbol, currency)
-    coinbase_price = coinbase.get_price(symbol, currency)
+    # Ensure the file exists with a valid JSON structure
+    if not os.path.exists(PRICES_LOG_PATH) or os.stat(PRICES_LOG_PATH).st_size == 0:
+        with open(PRICES_LOG_PATH, "w") as file:
+            json.dump([], file)
 
-    logger.info(f"Kraken {pair} price: {kraken_price}")
-    logger.info(f"Coinbase {pair} price: {coinbase_price}")
-
-    return kraken_price, coinbase_price
-
-def detect_arbitrage(kraken_price, coinbase_price, pair, threshold):
-    """
-    Detects arbitrage opportunities based on prices and a threshold.
-    """
-    if kraken_price and coinbase_price:
-        diff = abs(kraken_price - coinbase_price)
-        diff_percent = (diff / ((kraken_price + coinbase_price) / 2)) * 100
-
-        logger.info(f"Dynamic Threshold for {pair}: {threshold:.2f}%")
-        if diff_percent >= threshold:
-            logger.info(f"Arbitrage Opportunity Detected: {pair} | Diff: {diff_percent:.2f}%")
-            return {
+    try:
+        with open(PRICES_LOG_PATH, "r+") as file:
+            try:
+                prices = json.load(file)
+            except json.JSONDecodeError:
+                logger.warning("prices.json is not a valid JSON file. Resetting to empty list.")
+                prices = []
+            
+            # Append new price data
+            prices.append({
+                "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                 "pair": pair,
                 "kraken_price": kraken_price,
                 "coinbase_price": coinbase_price,
-                "diff_percent": diff_percent,
-                "threshold": threshold,
-                "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
-            }
-        else:
-            logger.info(f"No Arbitrage: {pair} | Diff: {diff_percent:.2f}% < Threshold: {threshold:.2f}%")
-    return None
+            })
+
+            # Keep only the latest 100 prices
+            file.seek(0)
+            json.dump(prices[-100:], file, indent=4)
+            file.truncate()
+    except Exception as e:
+        logger.error(f"Error logging prices: {e}")
+
+
+def log_opportunity(opportunity):
+    """
+    Logs arbitrage opportunities to opportunities.json.
+    """
+    # Ensure the file exists with a valid JSON structure
+    if not os.path.exists(OPPORTUNITIES_LOG_PATH) or os.stat(OPPORTUNITIES_LOG_PATH).st_size == 0:
+        with open(OPPORTUNITIES_LOG_PATH, "w") as file:
+            json.dump([], file)
+
+    try:
+        with open(OPPORTUNITIES_LOG_PATH, "r+") as file:
+            try:
+                opportunities = json.load(file)
+            except json.JSONDecodeError:
+                logger.warning("opportunities.json is not a valid JSON file. Resetting to empty list.")
+                opportunities = []
+
+            # Append the new opportunity
+            opportunities.append(opportunity)
+
+            # Write back to the file, keeping the latest 100 opportunities
+            file.seek(0)
+            json.dump(opportunities[-100:], file, indent=4)
+            file.truncate()
+
+        logger.info(f"Logged opportunity: {opportunity}")
+
+    except Exception as e:
+        logger.error(f"Error logging opportunity: {e}")
 
 def main():
+    """
+    Main function to start the arbitrage bot.
+    """
     logger.info("Starting Arbitrage Bot")
+
+    # Initialize API clients
     kraken = KrakenAPI()
     coinbase = CoinbaseAPI()
 
-    prices_log = []
-    opportunities_log = []
-
     while True:
-        for pair in ["DOGE/USD"]:
+        for pair_config in config["pairs"]:
+            pair = pair_config["symbol"]
             logger.info(f"Fetching prices for {pair}...")
-            kraken_price, coinbase_price = fetch_prices(kraken, coinbase, pair)
 
-            # Write live price data
-            price_entry = {
-                "pair": pair,
-                "kraken_price": kraken_price,
-                "coinbase_price": coinbase_price,
-                "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
-            }
-            prices_log.append(price_entry)
-            write_json(prices_log, PRICES_FILE)
+            # Fetch prices
+            kraken_price = kraken.get_price(pair.split('/')[0], pair.split('/')[1])
+            coinbase_price = coinbase.get_price(pair.split('/')[0], pair.split('/')[1])
 
-            # Detect arbitrage
-            threshold = 0.5  # Example threshold
-            opportunity = detect_arbitrage(kraken_price, coinbase_price, pair, threshold)
-            if opportunity:
-                opportunities_log.append(opportunity)
-                write_json(opportunities_log, OPPORTUNITIES_FILE)
+            if kraken_price is not None and coinbase_price is not None:
+                logger.info(f"Kraken {pair} price: {kraken_price}")
+                logger.info(f"Coinbase {pair} price: {coinbase_price}")
 
-        time.sleep(10)  # Adjust as needed
+                # Calculate threshold and detect opportunities
+                threshold = calculate_threshold("kraken", "coinbase", profit_margin=pair_config.get("profit_margin", 0.1))
+                price_difference = abs(kraken_price - coinbase_price)
+                percentage_difference = (price_difference / ((kraken_price + coinbase_price) / 2)) * 100
+
+                # Log prices
+                log_prices(pair, kraken_price, coinbase_price)
+
+                # Log opportunity
+                opportunity = {
+                    "pair": pair,
+                    "kraken_price": kraken_price,
+                    "coinbase_price": coinbase_price,
+                    "price_difference": price_difference,
+                    "percentage_difference": percentage_difference,
+                    "threshold": threshold,
+                    "is_viable": percentage_difference >= threshold,
+                    "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                }
+
+                log_opportunity(opportunity)
+
+                if opportunity["is_viable"]:
+                    logger.info(f"Arbitrage Opportunity Detected: {opportunity}")
+                else:
+                    logger.info(f"No Arbitrage: {pair} | Diff: {percentage_difference:.2f}% < Threshold: {threshold:.2f}%")
+
+            else:
+                logger.warning(f"Failed to fetch prices for {pair}")
+
+        time.sleep(config.get("poll_interval", 10))
+
 
 if __name__ == "__main__":
     main()

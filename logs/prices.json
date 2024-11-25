@@ -1,0 +1,12 @@
+[
+    {
+        "pair": "DOGE/USD",
+        "kraken_price": 0.4021007,
+        "coinbase_price": 0.40228
+    },
+    {
+        "pair": "BTC/USD",
+        "kraken_price": 95036.0,
+        "coinbase_price": 94965.005
+    }
+]

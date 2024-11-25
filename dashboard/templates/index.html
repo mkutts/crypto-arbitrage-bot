@@ -5,50 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crypto Arbitrage Dashboard</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        .viable {
+            color: green;
+        }
+
+        .not-viable {
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <h1>Crypto Arbitrage Dashboard</h1>
-    
-    <!-- Live Prices -->
-    <h2>Live Prices</h2>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Symbol</th>
-                <th>Kraken Price</th>
-                <th>Coinbase Price</th>
-                <th>Difference (%)</th>
-                <th>Threshold (%)</th>
-            </tr>
-        </thead>
-        <tbody id="price-table-body">
-        </tbody>
-    </table>
 
-    <!-- Historical Price Chart -->
-    <h2>Historical Price Trends</h2>
+    <!-- Live Prices Chart -->
+    <h2>Live Prices</h2>
     <canvas id="priceChart" width="400" height="200"></canvas>
 
+    <!-- Arbitrage Opportunities Table -->
+    <h2>Arbitrage Opportunities</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Pair</th>
+                <th>Kraken Price</th>
+                <th>Coinbase Price</th>
+                <th>Difference</th>
+                <th>Threshold</th>
+                <th>Viable</th>
+            </tr>
+        </thead>
+        <tbody id="opportunitiesBody"></tbody>
+    </table>
+
     <script>
-        const ctx = document.getElementById('priceChart').getContext('2d');
-        const priceChart = new Chart(ctx, {
-            type: 'line',
+        // Price Chart Initialization
+        const priceChartCtx = document.getElementById("priceChart").getContext("2d");
+        const priceChart = new Chart(priceChartCtx, {
+            type: "line",
             data: {
                 labels: [], // Timestamps
                 datasets: [
                     {
-                        label: 'Kraken Price',
+                        label: "Kraken Price",
                         data: [],
-                        borderColor: 'blue',
+                        borderColor: "blue",
                         fill: false,
                     },
                     {
-                        label: 'Coinbase Price',
+                        label: "Coinbase Price",
                         data: [],
-                        borderColor: 'green',
+                        borderColor: "orange",
                         fill: false,
-                    }
-                ]
+                    },
+                ],
             },
             options: {
                 responsive: true,
@@ -56,65 +80,71 @@
                     x: {
                         title: {
                             display: true,
-                            text: 'Time',
+                            text: "Timestamp",
                         },
                     },
                     y: {
                         title: {
                             display: true,
-                            text: 'Price (USD)',
+                            text: "Price (USD)",
                         },
-                        beginAtZero: false,
-                    }
-                }
-            }
+                    },
+                },
+            },
         });
 
-        async function fetchLiveData() {
+        // Fetch Live Prices and Update Chart
+        async function fetchLivePrices() {
             try {
-                const response = await fetch('/api/live-data');
-                const data = await response.json();
+                const response = await fetch("/api/live-data");
+                const prices = await response.json();
 
-                if (!data || data.error) {
-                    console.error('Error fetching live data:', data.error);
-                    return;
-                }
-
-                const { timestamp, kraken_price, coinbase_price } = data[0];
-                const difference = ((coinbase_price - kraken_price) / kraken_price * 100).toFixed(2);
-
-                // Update table
-                const tableBody = document.getElementById('price-table-body');
-                tableBody.innerHTML = `
-                    <tr>
-                        <td>DOGE/USD</td>
-                        <td>${kraken_price.toFixed(4)}</td>
-                        <td>${coinbase_price.toFixed(4)}</td>
-                        <td>${difference}%</td>
-                        <td>Dynamic Threshold</td>
-                    </tr>
-                `;
-
-                // Update chart
-                priceChart.data.labels.push(timestamp);
-                priceChart.data.datasets[0].data.push(kraken_price);
-                priceChart.data.datasets[1].data.push(coinbase_price);
-
-                // Limit chart data points to the last 20
-                if (priceChart.data.labels.length > 20) {
-                    priceChart.data.labels.shift();
-                    priceChart.data.datasets[0].data.shift();
-                    priceChart.data.datasets[1].data.shift();
-                }
-
+                // Update chart data
+                priceChart.data.labels = prices.map(price => price.timestamp);
+                priceChart.data.datasets[0].data = prices.map(price => price.kraken_price);
+                priceChart.data.datasets[1].data = prices.map(price => price.coinbase_price);
                 priceChart.update();
             } catch (error) {
-                console.error('Error fetching live data:', error);
+                console.error("Error fetching live prices:", error);
             }
         }
 
-        // Fetch data every 5 seconds
-        setInterval(fetchLiveData, 5000);
+        // Fetch Arbitrage Opportunities and Update Table
+        async function fetchArbitrageLog() {
+            try {
+                const response = await fetch("/api/arbitrage-log");
+                const opportunities = await response.json();
+                const tableBody = document.getElementById("opportunitiesBody");
+
+                // Clear table and display latest 20 opportunities
+                tableBody.innerHTML = "";
+                opportunities
+                    .slice(-20)
+                    .reverse()
+                    .forEach(opportunity => {
+                        const row = document.createElement("tr");
+                        row.innerHTML = `
+                            <td>${opportunity.pair || "N/A"}</td>
+                            <td>${opportunity.kraken_price?.toFixed(4) || "N/A"}</td>
+                            <td>${opportunity.coinbase_price?.toFixed(4) || "N/A"}</td>
+                            <td>${opportunity.price_difference?.toFixed(4) || "N/A"}</td>
+                            <td>${opportunity.threshold?.toFixed(2) || "N/A"}%</td>
+                            <td class="${opportunity.is_viable ? "viable" : "not-viable"}">
+                                ${opportunity.is_viable ? "Yes" : "No"}
+                            </td>
+                        `;
+                        tableBody.appendChild(row);
+                    });
+            } catch (error) {
+                console.error("Error fetching arbitrage log:", error);
+            }
+        }
+
+        // Refresh data every 5 seconds
+        setInterval(() => {
+            fetchLivePrices();
+            fetchArbitrageLog();
+        }, 5000);
     </script>
 </body>
 </html>
