@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crypto Arbitrage Dashboard</title>
+    <script>
+        async function fetchLiveData() {
+            try {
+                const response = await fetch("/api/live-data");
+                const data = await response.json();
+
+                const liveDataDiv = document.getElementById("live-data");
+                liveDataDiv.innerHTML = JSON.stringify(data, null, 2);
+            } catch (error) {
+                console.error("Error fetching live data:", error);
+            }
+        }
+
+        async function fetchArbitrageLog() {
+            try {
+                const response = await fetch("/api/arbitrage-log");
+                const data = await response.json();
+
+                const arbitrageLogDiv = document.getElementById("arbitrage-log");
+                arbitrageLogDiv.innerHTML = JSON.stringify(data, null, 2);
+            } catch (error) {
+                console.error("Error fetching arbitrage log:", error);
+            }
+        }
+
+        function updateDashboard() {
+            fetchLiveData();
+            fetchArbitrageLog();
+        }
+
+        setInterval(updateDashboard, 5000);
+    </script>
+</head>
+<body onload="updateDashboard()">
+    <h1>Crypto Arbitrage Dashboard</h1>
+    <h2>Live Prices</h2>
+    <pre id="live-data"></pre>
+    <h2>Arbitrage Log</h2>
+    <pre id="arbitrage-log"></pre>
+</body>
+</html>
