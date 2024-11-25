@@ -7,8 +7,18 @@ poll_interval: 1  # Time interval in seconds for each iteration
 
 pairs:
   - symbol: DOGE/USD
-    profit_margin: 0.01
+    profit_margin: 0.02
 
+# Exchange configuration for testing
+# exchanges:
+#   - name: kraken
+#     maker_fee: 0  # Maker fee (in %)
+#     taker_fee: 0  # Taker fee (in %)
+#   - name: coinbase
+#     maker_fee: 0  # Maker fee (in %)
+#     taker_fee: 0  # Taker fee (in %)
+
+# Uncomment below for production configuration
 exchanges:
   - name: kraken
     maker_fee: 0.06  # Maker fee (in %)
@@ -17,3 +27,6 @@ exchanges:
     maker_fee: 0.60  # Maker fee (in %)
     taker_fee: 0.40  # Taker fee (in %)
 
+notifications:
+  slack_webhook_url: 
+    - "https://hooks.slack.com/services/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"

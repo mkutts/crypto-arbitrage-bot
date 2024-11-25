@@ -2,6 +2,7 @@ import logging
 import os
 import time
 import json
+import requests
 from datetime import datetime
 from exchanges.kraken import KrakenAPI
 from exchanges.coinbase import CoinbaseAPI
@@ -23,7 +24,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-
 def calculate_threshold(buy_exchange, sell_exchange, profit_margin=0.1):
     """
     Calculate the dynamic threshold for arbitrage detection using config.yaml.
@@ -42,12 +42,10 @@ def calculate_threshold(buy_exchange, sell_exchange, profit_margin=0.1):
         logger.error(f"Exchange not found in configuration: {e}")
         return float("inf")  # Return an impossibly high threshold if config is missing
 
-
 def log_prices(pair, kraken_price, coinbase_price):
     """
     Logs the prices for a trading pair into the prices.json file.
     """
-    # Ensure the file exists with a valid JSON structure
     if not os.path.exists(PRICES_LOG_PATH) or os.stat(PRICES_LOG_PATH).st_size == 0:
         with open(PRICES_LOG_PATH, "w") as file:
             json.dump([], file)
@@ -60,7 +58,6 @@ def log_prices(pair, kraken_price, coinbase_price):
                 logger.warning("prices.json is not a valid JSON file. Resetting to empty list.")
                 prices = []
             
-            # Append new price data
             prices.append({
                 "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                 "pair": pair,
@@ -75,36 +72,69 @@ def log_prices(pair, kraken_price, coinbase_price):
     except Exception as e:
         logger.error(f"Error logging prices: {e}")
 
-
 def log_opportunity(opportunity):
     """
     Logs arbitrage opportunities to opportunities.json.
     """
-    # Ensure the file exists with a valid JSON structure
-    if not os.path.exists(OPPORTUNITIES_LOG_PATH) or os.stat(OPPORTUNITIES_LOG_PATH).st_size == 0:
-        with open(OPPORTUNITIES_LOG_PATH, "w") as file:
-            json.dump([], file)
-
     try:
+        if not os.path.exists(OPPORTUNITIES_LOG_PATH):
+            with open(OPPORTUNITIES_LOG_PATH, "w") as file:
+                json.dump([], file)
+
         with open(OPPORTUNITIES_LOG_PATH, "r+") as file:
             try:
                 opportunities = json.load(file)
+                if not isinstance(opportunities, list):
+                    logger.warning("opportunities.json is not a list. Resetting to an empty list.")
+                    opportunities = []
             except json.JSONDecodeError:
-                logger.warning("opportunities.json is not a valid JSON file. Resetting to empty list.")
+                logger.warning("opportunities.json is not valid JSON. Resetting to an empty list.")
                 opportunities = []
 
-            # Append the new opportunity
             opportunities.append(opportunity)
+            opportunities = opportunities[-100:]  # Keep only the latest 100 opportunities
 
-            # Write back to the file, keeping the latest 100 opportunities
             file.seek(0)
-            json.dump(opportunities[-100:], file, indent=4)
+            json.dump(opportunities, file, indent=4)
             file.truncate()
 
         logger.info(f"Logged opportunity: {opportunity}")
-
     except Exception as e:
         logger.error(f"Error logging opportunity: {e}")
+
+def send_slack_alert(opportunity):
+    """
+    Send an alert to Slack for a viable arbitrage opportunity.
+    """
+    try:
+        # Access notifications and webhook URL from the updated config structure
+        slack_urls = config["notifications"]["slack_webhook_url"]
+
+        # Ensure Slack notifications are enabled and URLs are provided
+        if not slack_urls:
+            logger.warning("No Slack webhook URLs provided in configuration.")
+            return
+
+        # Prepare the message
+        message = (
+            f"*Arbitrage Opportunity Detected!*\n"
+            f"Pair: {opportunity['pair']}\n"
+            f"Kraken Price: {opportunity['kraken_price']:.4f}\n"
+            f"Coinbase Price: {opportunity['coinbase_price']:.4f}\n"
+            f"Difference: {opportunity['price_difference']:.4f} ({opportunity['percentage_difference']:.2f}%)\n"
+            f"Threshold: {opportunity['threshold']:.2f}%\n"
+            f"Timestamp: {opportunity['timestamp']}"
+        )
+
+        # Send message to each Slack URL
+        payload = {"text": message}
+        for url in slack_urls:
+            response = requests.post(url, json=payload)
+            response.raise_for_status()
+
+        logger.info("Slack alert sent successfully.")
+    except Exception as e:
+        logger.error(f"Failed to send Slack alert: {e}")
 
 def main():
     """
@@ -121,7 +151,6 @@ def main():
             pair = pair_config["symbol"]
             logger.info(f"Fetching prices for {pair}...")
 
-            # Fetch prices
             kraken_price = kraken.get_price(pair.split('/')[0], pair.split('/')[1])
             coinbase_price = coinbase.get_price(pair.split('/')[0], pair.split('/')[1])
 
@@ -129,15 +158,12 @@ def main():
                 logger.info(f"Kraken {pair} price: {kraken_price}")
                 logger.info(f"Coinbase {pair} price: {coinbase_price}")
 
-                # Calculate threshold and detect opportunities
                 threshold = calculate_threshold("kraken", "coinbase", profit_margin=pair_config.get("profit_margin", 0.1))
                 price_difference = abs(kraken_price - coinbase_price)
                 percentage_difference = (price_difference / ((kraken_price + coinbase_price) / 2)) * 100
 
-                # Log prices
                 log_prices(pair, kraken_price, coinbase_price)
 
-                # Log opportunity
                 opportunity = {
                     "pair": pair,
                     "kraken_price": kraken_price,
@@ -153,14 +179,13 @@ def main():
 
                 if opportunity["is_viable"]:
                     logger.info(f"Arbitrage Opportunity Detected: {opportunity}")
+                    send_slack_alert(opportunity)
                 else:
                     logger.info(f"No Arbitrage: {pair} | Diff: {percentage_difference:.2f}% < Threshold: {threshold:.2f}%")
-
             else:
                 logger.warning(f"Failed to fetch prices for {pair}")
 
         time.sleep(config.get("poll_interval", 10))
-
 
 if __name__ == "__main__":
     main()
